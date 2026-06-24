@@ -321,7 +321,7 @@ def main() -> None:
     for idx, paper in enumerate(papers):
         for ref in paper.get("evidence_sources", []):
             if not (ROOT / ref).exists():
-                errors.append(f"paper[{idx}] `{paper.get('title')}` missing evidence source `{ref}`")
+                warnings.append(f"paper[{idx}] `{paper.get('title')}` missing optional evidence source `{ref}`")
 
     if len([p for p in papers if p.get("status") == "core"]) < 10:
         warnings.append("fewer than 10 core papers")

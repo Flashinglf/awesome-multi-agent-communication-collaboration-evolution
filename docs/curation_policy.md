@@ -21,7 +21,7 @@ For papers:
 - Prefer the official venue page as the primary `url` when a paper is accepted or published in ACL Anthology, OpenReview, PMLR, NeurIPS proceedings, ACM DL, AAAI, IJCAI, IEEE, or a journal.
 - Keep arXiv as `preprint_url` when an official venue page exists; do not add a second duplicate paper row for the same work.
 - For accepted papers, add `venue`; add `doi` when a stable DOI is available.
-- Add `evidence_sources` pointing to raw search/API evidence under `sources/` when a venue or official URL is enriched from external indexes.
+- Add `evidence_sources` pointing to raw search/API evidence under a local `sources/` archive when a venue or official URL is enriched from external indexes. The archive is optional and is not tracked in the public repository.
 
 For projects:
 
@@ -87,5 +87,5 @@ Recommended project fields:
 - Audit paper source coverage with `python3 scripts/audit_paper_sources.py`.
 - Keep generated README files and `survey_zh.md` in sync with YAML.
 - Record verification reports under `reports/verification/YYYY-MM-DD.md`.
-- Keep candidate evidence under `sources/`, preferably raw arXiv API XML or search-result JSON, so later updates can audit why an entry was added.
+- Keep candidate evidence in a local `sources/` archive, preferably raw arXiv API XML or search-result JSON, so later updates can audit why an entry was added. The public repository may omit this archive to keep the repository lightweight.
 - Avoid duplicate paper titles, primary URLs, preprint URLs, and DOIs. If a benchmark/tool is described inside a system paper, place the tool under `data/projects.yaml` instead of adding a second paper row with the same arXiv URL.

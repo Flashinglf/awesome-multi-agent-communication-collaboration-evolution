@@ -135,7 +135,7 @@ Never count an arXiv preprint and its accepted conference version as two separat
 
 ## Evidence Files
 
-Raw search evidence should be kept in `sources/`:
+Raw search evidence can be kept in a local `sources/` archive. This archive is intentionally not tracked in the public repository, but the filenames below document the evidence files used during the June 2026 curation pass:
 
 - `sources/arxiv_verified_additions_2026-06-12.xml`: AutoGen, AgentVerse, Mixture-of-Agents, ReConcile, More Agents, TalkHier, SMoA, RouteMoA, DMoA.
 - `sources/arxiv_verified_additions_security_benchmarks_2026-06-12.xml`: Maris, VillagerAgent, RMoA.
