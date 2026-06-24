@@ -1,0 +1,1009 @@
+catalog:
+  title_en: Awesome Multi-Agent Communication, Collaboration, and Evolution
+  title_zh: 多智能体通信、协作与进化综述仓库
+  last_verified: '2026-06-13'
+  scope_en: Implementation projects, protocols, benchmarks, and reference systems for multi-agent communication, collaboration, and evolution.
+  scope_zh: 围绕多智能体通信、协作与进化的开源项目、协议、评测和参考系统。
+categories:
+- id: frameworks-runtimes
+  name_en: Frameworks & Runtimes
+  name_zh: 框架与运行时
+  anchor: frameworks-runtimes
+- id: protocols-interoperability
+  name_en: Protocols & Interoperability
+  name_zh: 协议与互操作
+  anchor: protocols-interoperability
+- id: benchmarks-evaluation
+  name_en: Benchmarks & Evaluation
+  name_zh: 基准与评测
+  anchor: benchmarks-evaluation
+- id: observability-operations
+  name_en: Observability & Operations
+  name_zh: 可观测与运维
+  anchor: observability-operations
+- id: research-implementations-baselines
+  name_en: Research Implementations & Baselines
+  name_zh: 论文实现与基线
+  anchor: research-implementations-baselines
+- id: reference-systems
+  name_en: Reference Systems & Case Studies
+  name_zh: 参考系统与案例
+  anchor: reference-systems
+- id: technical-docs-blogs
+  name_en: Technical Docs, Blogs & Field Reports
+  name_zh: 技术文档、博客与工程复盘
+  anchor: technical-docs-blogs
+projects:
+- name: LangGraph
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/langchain-ai/langgraph
+  docs_url: https://docs.langchain.com/oss/python/langgraph/overview
+  tags: [graph-runtime, stateful, durable-execution, multi-agent]
+  summary_zh: 面向有状态、长任务 agent 的图运行时，支持 durable execution、persistence、human-in-the-loop、memory 和可控工作流。
+  relevance_zh: 适合做多 agent 协作运行时和 traceable workflow baseline。
+  status: core
+- name: AutoGen
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/microsoft/autogen
+  docs_url: https://microsoft.github.io/autogen/stable/index.html
+  tags: [multi-agent, event-driven, agentchat, runtime]
+  summary_zh: Microsoft 多智能体编程框架，包含 Core、AgentChat、Extensions 等层。
+  relevance_zh: 适合参考多 agent conversation、事件驱动通信和分布式 agent runtime。
+  status: core
+- name: AgentScope
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/agentscope-ai/agentscope
+  docs_url: https://doc.agentscope.io/
+  paper_url: https://arxiv.org/abs/2402.14034
+  tags: [multi-agent-platform, message-exchange, fault-tolerance, distributed]
+  summary_zh: 面向多智能体应用的开发平台，强调 message exchange、fault tolerance、actor-based distributed framework 和 monitoring。
+  relevance_zh: 与“通用协作框架 + 动态协作 + 鲁棒部署”高度贴合。
+  status: core
+- name: CAMEL
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/camel-ai/camel
+  docs_url: https://docs.camel-ai.org/
+  tags: [agent-society, multi-agent, memory, benchmarks]
+  summary_zh: 面向大规模 agent society 的多智能体框架，提供通信、记忆、环境、benchmark 和协调原语。
+  relevance_zh: 适合做多 agent 实验平台和 agent society baseline。
+  status: core
+- name: OpenAI Agents SDK
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/openai/openai-agents-python
+  docs_url: https://openai.github.io/openai-agents-python/
+  tags: [agents, handoffs, tracing, guardrails, mcp]
+  summary_zh: 轻量级 agent SDK，支持 agents、handoffs、agents-as-tools、sessions、guardrails、tracing 和 MCP。
+  relevance_zh: 适合借鉴 handoff、manager-style orchestration 和 tracing 的简洁抽象。
+  status: important
+- name: CrewAI
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/crewAIInc/crewAI
+  docs_url: https://docs.crewai.com/
+  tags: [crews, flows, role-based, business-workflows]
+  summary_zh: 面向业务自动化的多 agent 框架，包含 Crews 和 Flows。
+  relevance_zh: 可作为业务流程协作 baseline，但研究创新不应停留在框架调用。
+  status: important
+- name: MetaGPT
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/FoundationAgents/MetaGPT
+  paper_url: https://arxiv.org/abs/2308.00352
+  tags: [sop, role-specialization, software-company]
+  summary_zh: 将软件公司 SOP 映射成多智能体协作流程。
+  relevance_zh: 适合做固定角色/固定流程协作 baseline。
+  status: important
+- name: ChatDev
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/OpenBMB/ChatDev
+  paper_url: https://arxiv.org/abs/2307.07924
+  tags: [software-company, chat-chain, multi-agent, macnet]
+  summary_zh: OpenBMB 的多 agent 软件开发框架，包含 ChatDev 和 MacNet 相关实验代码。
+  relevance_zh: 是软件工程多 agent 协作和协作 scaling law 的核心参考实现。
+  status: core
+- name: AgentVerse
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/OpenBMB/AgentVerse
+  tags: [multi-agent, framework, simulation, collaboration]
+  summary_zh: OpenBMB 多 agent 框架，支持多个 LLM agents 组成协作/仿真环境。
+  relevance_zh: 可作为早期通用多 agent 协作框架和仿真实验平台参考。
+  status: important
+- name: Microsoft Agent Framework
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/microsoft/agent-framework
+  tags: [multi-agent, workflows, orchestration, observability]
+  summary_zh: Microsoft 新一代 agent framework，面向多语言 agent 构建、编排和部署。
+  relevance_zh: 适合跟踪 AutoGen 之后的生产级多 agent 编排方向。
+  status: important
+- name: Agent Squad
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/2FastLabs/agent-squad
+  tags: [routing, multi-agent, specialist-agents, context]
+  summary_zh: 面向 specialist agents 的多 agent request routing 和上下文保持框架。
+  relevance_zh: 与项目“任务助手多专业 agent 联合执行”和 request routing 高度相关。
+  status: important
+- name: Open Multi-Agent
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/open-multi-agent/open-multi-agent
+  tags: [dag, tracing, typescript, multi-agent]
+  summary_zh: TypeScript 多 agent orchestrator，将目标转成任务 DAG，支持并行执行、MCP 和 tracing。
+  relevance_zh: 适合作任务 DAG、并行协作和可观测执行 baseline。
+  status: important
+- name: Semantic Kernel
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/microsoft/semantic-kernel
+  docs_url: https://learn.microsoft.com/semantic-kernel/
+  tags: [enterprise, orchestration, plugins, multi-agent]
+  summary_zh: Microsoft 企业级 agentic application 框架，支持插件、函数调用、规划和多 agent 协作模式。
+  relevance_zh: 适合作企业场景中多 agent 编排、工具接入和结构化插件契约的工程参考。
+  status: important
+- name: Google ADK
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/google/adk-python
+  docs_url: https://google.github.io/adk-docs/
+  tags: [agent-development-kit, multi-agent, evaluation, deployment]
+  summary_zh: Google 开源的 Agent Development Kit，面向 agent 构建、评估和部署，包含多 agent、工具和运行时能力。
+  relevance_zh: 可作为多 agent 产品化 SDK、评测和部署路径的强参考。
+  status: important
+- name: Agno
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/agno-agi/agno
+  docs_url: https://docs.agno.com/
+  tags: [agent-platform, teams, memory, runtime]
+  summary_zh: 面向 agent platform 的运行和管理框架，支持 agent teams、memory、tools、knowledge 和工作流。
+  relevance_zh: 适合参考多 agent team 在生产平台中的运行、管理和观测抽象。
+  status: important
+- name: Strands Agents
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/strands-agents/sdk-python
+  docs_url: https://strandsagents.com/
+  tags: [sdk, multi-agent, mcp, production]
+  summary_zh: 开源 agent SDK，强调端到端控制、模型/云无关、MCP 工具接入和多 agent system 构建。
+  relevance_zh: 对“通用协作框架 + 跨模型/跨工具生态”有参考价值。
+  status: important
+- name: PraisonAI
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/MervinPraison/PraisonAI
+  docs_url: https://docs.praison.ai/
+  tags: [multi-agent, workforce, self-improving, rag]
+  summary_zh: 面向 AI workforce 的多 agent 框架，支持 agent 编排、记忆、RAG、工具和自改进式任务执行。
+  relevance_zh: 可作为业务流程中“多角色 agent workforce”落地方式的对照项目。
+  status: important
+- name: NeMo Agent Toolkit
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/NVIDIA/NeMo-Agent-Toolkit
+  docs_url: https://docs.nvidia.com/nemo/agent-toolkit/
+  tags: [agent-toolkit, multi-agent, optimization, nvidia]
+  summary_zh: NVIDIA 用于连接和优化 agent teams 的开源 toolkit，强调多 agent 协作、工具连接和性能优化。
+  relevance_zh: 与“多 agent 协作优化”和企业级 agent team 运行效率直接相关。
+  status: important
+- name: deepagents
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/langchain-ai/deepagents
+  docs_url: https://docs.langchain.com/oss/python/deepagents/overview
+  tags: [long-running, subagents, planning, langgraph]
+  summary_zh: LangChain 生态的 batteries-included agent harness，内置 planning、subagents、filesystem 和长任务状态管理。
+  relevance_zh: 适合参考长尾复杂任务中 subagent 编排、任务持久化和工作状态管理。
+  status: important
+- name: Model Context Protocol
+  category: Protocols & Interoperability
+  repo_url: https://github.com/modelcontextprotocol/modelcontextprotocol
+  tags: [mcp, tools, resources, prompts, interoperability]
+  summary_zh: 标准化 agent 与工具、资源、提示和外部系统的连接协议。
+  relevance_zh: 多智能体框架若要跨产品线复用，工具/上下文接入层建议兼容 MCP。
+  status: core
+- name: Agent2Agent Protocol
+  category: Protocols & Interoperability
+  repo_url: https://github.com/a2aproject/A2A
+  docs_url: https://a2a-protocol.org/latest/specification/
+  tags: [a2a, agent-interop, task-delegation, agent-cards]
+  summary_zh: 面向不同 agent 系统之间发现能力、委托任务、交换状态和协同工作的开放协议。
+  relevance_zh: 与“通用协作框架”和跨产品线 agent 协作高度相关。
+  status: core
+- name: mcp-agent
+  category: Protocols & Interoperability
+  repo_url: https://github.com/lastmile-ai/mcp-agent
+  tags: [mcp, workflow, multi-server, agent-framework]
+  summary_zh: 围绕 MCP 工具体系构建 agent workflow 的实用框架。
+  relevance_zh: 适合参考如何把多个工具服务器聚合进 agent 协作流程。
+  status: important
+- name: Agent Client Protocol
+  category: Protocols & Interoperability
+  repo_url: https://github.com/agentclientprotocol/agent-client-protocol
+  tags: [acp, editor-agent, protocol, sessions]
+  summary_zh: 标准化编辑器和编码 agent 之间通信的开放协议，覆盖 session、工具调用、消息和上下文交互。
+  relevance_zh: 对跨宿主 agent 协作、agent handoff 和可迁移会话协议有参考价值。
+  status: important
+- name: SEMAP
+  category: Protocols & Interoperability
+  repo_url: https://arxiv.org/abs/2510.12120
+  tags: [protocol, structured-messaging, a2a, software-engineering]
+  summary_zh: Software Engineering Multi-Agent Protocol，强调显式行为契约、结构化消息、生命周期执行和验证。
+  relevance_zh: 虽主要是论文方案，但非常适合作为多 agent 协作协议设计参考。
+  status: core
+- name: AgentBench
+  category: Benchmarks & Evaluation
+  repo_url: https://github.com/THUDM/AgentBench
+  paper_url: https://arxiv.org/abs/2308.03688
+  tags: [agent-benchmark, environments, reasoning, decision-making]
+  summary_zh: 多环境交互式 LLM agent benchmark。
+  relevance_zh: 适合测基础 agent 执行能力，但需补充多 agent 通信和进化指标。
+  status: important
+- name: GAIA
+  category: Benchmarks & Evaluation
+  repo_url: https://arxiv.org/abs/2311.12983
+  paper_url: https://arxiv.org/abs/2311.12983
+  tags: [general-assistant, web, tool-use, benchmark]
+  summary_zh: 面向通用 AI 助手的真实复杂问题评测。
+  relevance_zh: 适合任务助手信息搜集、整合和工具使用评测。
+  status: important
+- name: SWE-bench
+  category: Benchmarks & Evaluation
+  repo_url: https://github.com/SWE-bench/SWE-bench
+  paper_url: https://arxiv.org/abs/2310.06770
+  tags: [software-engineering, long-horizon, benchmark]
+  summary_zh: 用真实 GitHub issue 评估 agent 修复代码的能力。
+  relevance_zh: 可测长任务执行、上下文管理、验证和恢复能力。
+  status: important
+- name: E2EDev
+  category: Benchmarks & Evaluation
+  repo_url: https://github.com/SCUNLP/E2EDev
+  paper_url: https://arxiv.org/abs/2510.14509
+  tags: [end-to-end-software-development, bdd, multi-agent-annotation, benchmark]
+  summary_zh: 端到端软件开发任务 benchmark，用 BDD 测试场景评估生成软件是否满足用户需求。
+  relevance_zh: 适合评估多 agent 从需求到交付的完整长任务能力。
+  status: important
+- name: SWE-Dev
+  category: Benchmarks & Evaluation
+  repo_url: https://github.com/DorothyDUUU/SWE-Dev
+  tags: [feature-development, software-engineering, benchmark, rl]
+  summary_zh: 面向真实 feature-driven 软件开发任务的数据集和评测环境。
+  relevance_zh: 适合补充 SWE-bench 对“新增功能/端到端开发”的覆盖。
+  status: important
+- name: Promptfoo
+  category: Benchmarks & Evaluation
+  repo_url: https://github.com/promptfoo/promptfoo
+  docs_url: https://www.promptfoo.dev/
+  tags: [eval, red-team, ci, regression]
+  summary_zh: 配置驱动的 prompt/agent/RAG 测试和红队评测工具。
+  relevance_zh: 适合做多 agent 变更后的回归测试和安全测试。
+  status: supporting
+- name: DeepEval
+  category: Benchmarks & Evaluation
+  repo_url: https://github.com/confident-ai/deepeval
+  tags: [evaluation, llm-judge, testing]
+  summary_zh: 面向 LLM 应用的评测框架，支持测试、指标和 CI。
+  relevance_zh: 可作为自建 Qianwen-LongTail-MAS-Bench 的评测基础设施参考。
+  status: supporting
+- name: ChatEval
+  category: Benchmarks & Evaluation
+  repo_url: https://github.com/thunlp/ChatEval
+  paper_url: https://arxiv.org/abs/2308.07201
+  tags: [multi-agent-evaluator, debate, llm-as-judge]
+  summary_zh: 多 agent debate 评价框架，用 referee team 讨论并评价生成结果。
+  relevance_zh: 可作为多 agent verifier/judge 组件和评价方法 baseline。
+  status: important
+- name: Multi-Agents-Debate
+  category: Benchmarks & Evaluation
+  repo_url: https://github.com/Skytliang/Multi-Agents-Debate
+  paper_url: https://arxiv.org/abs/2305.19118
+  tags: [multi-agent-debate, reasoning, judge]
+  summary_zh: MAD 论文对应代码库，实现多 agent debate 推理框架。
+  relevance_zh: 是 debate 协作机制的核心 baseline。
+  status: core
+- name: M-MAD
+  category: Benchmarks & Evaluation
+  repo_url: https://github.com/SU-JIAYUAN/M-MAD
+  paper_url: https://arxiv.org/abs/2412.20127
+  tags: [multi-agent-debate, machine-translation-evaluation, llm-as-judge]
+  summary_zh: 多维度多 agent debate 的机器翻译评价框架。
+  relevance_zh: 适合参考如何把复杂评价标准拆成多个 specialist judges。
+  status: supporting
+- name: tau2-bench
+  category: Benchmarks & Evaluation
+  repo_url: https://github.com/sierra-research/tau2-bench
+  tags: [tool-agent-user, benchmark, multi-turn, real-world-domains]
+  summary_zh: 面向真实领域中 tool-agent-user 多轮交互的 benchmark，强调工具调用、用户交互和任务完成质量。
+  relevance_zh: 适合评估多 agent 任务助手在真实工具和用户反馈循环中的协作表现。
+  status: important
+- name: WebArena
+  category: Benchmarks & Evaluation
+  repo_url: https://github.com/web-arena-x/webarena
+  paper_url: https://arxiv.org/abs/2307.13854
+  tags: [web-agent, benchmark, realistic-environment, tool-use]
+  summary_zh: 真实 Web 环境中的自主 agent benchmark，覆盖网页操作、信息检索和多步骤任务。
+  relevance_zh: 可作为任务助手“多步骤信息搜集+执行”的公共环境基准。
+  status: important
+- name: WorkArena
+  category: Benchmarks & Evaluation
+  repo_url: https://github.com/ServiceNow/WorkArena
+  paper_url: https://arxiv.org/abs/2403.07718
+  tags: [enterprise, web-agent, service-workflows, benchmark]
+  summary_zh: 面向企业知识工作和 ServiceNow 类工作流的 Web agent benchmark。
+  relevance_zh: 适合补充企业长尾任务、流程系统和真实业务操作场景的评测。
+  status: important
+- name: TheAgentCompany
+  category: Benchmarks & Evaluation
+  repo_url: https://github.com/TheAgentCompany/TheAgentCompany
+  paper_url: https://arxiv.org/abs/2412.14161
+  tags: [workplace, simulated-company, benchmark, long-horizon]
+  summary_zh: 模拟软件公司环境的 agent benchmark，包含多步骤办公、开发和协作任务。
+  relevance_zh: 与多 agent 任务助手和软件团队协作评测高度相关。
+  status: important
+- name: Terminal-Bench
+  category: Benchmarks & Evaluation
+  repo_url: https://github.com/harbor-framework/terminal-bench
+  paper_url: https://arxiv.org/abs/2505.10468
+  tags: [terminal, benchmark, long-horizon, verification]
+  summary_zh: 面向终端环境复杂任务的 benchmark，强调可复现执行和基于验证器的评分。
+  relevance_zh: 可用于测试多 agent 在代码、命令行、文件系统任务中的长程协作和恢复能力。
+  status: important
+- name: LangSmith
+  category: Observability & Operations
+  repo_url: https://github.com/langchain-ai/langsmith-sdk
+  docs_url: https://docs.smith.langchain.com/
+  tags: [observability, tracing, eval, debugging]
+  summary_zh: LangChain 生态的 agent trace、debug、evaluation 和监控平台。
+  relevance_zh: 多 agent 通信/进化需要 trace-native evaluation，LangSmith 可作工程参考。
+  status: supporting
+- name: Langfuse
+  category: Observability & Operations
+  repo_url: https://github.com/langfuse/langfuse
+  docs_url: https://langfuse.com/docs
+  tags: [observability, traces, cost, prompts]
+  summary_zh: 开源 LLM engineering observability 平台，支持 tracing、prompt 管理、成本和评测。
+  relevance_zh: 适合记录多 agent 消息、成本、失败轨迹和进化前后对比。
+  status: supporting
+- name: Arize Phoenix
+  category: Observability & Operations
+  repo_url: https://github.com/Arize-ai/phoenix
+  docs_url: https://arize.com/docs/phoenix
+  tags: [observability, eval, tracing, llmops]
+  summary_zh: 开源 AI observability 和 evaluation 平台。
+  relevance_zh: 可作为 trace + evaluation + failure analysis 工程参考。
+  status: supporting
+- name: AgentCoord
+  category: Observability & Operations
+  repo_url: https://arxiv.org/abs/2404.11943
+  tags: [coordination-visualization, strategy-design, human-in-the-loop]
+  summary_zh: 用可视化方式探索和设计 LLM 多 agent coordination strategy。
+  relevance_zh: 适合作协作拓扑、任务依赖和 agent 关系的调试工具参考。
+  status: supporting
+- name: GUARDIAN
+  category: Observability & Operations
+  repo_url: https://github.com/JialongZhou666/GUARDIAN
+  paper_url: https://arxiv.org/abs/2505.19234
+  tags: [temporal-graph, safety, anomaly-detection, multi-agent]
+  summary_zh: 基于 temporal graph 的多 agent 协作安全检测与缓解代码库。
+  relevance_zh: 适合把多 agent 消息 trace 转成图并做错误传播/异常检测。
+  status: important
+- name: AgentOps
+  category: Observability & Operations
+  repo_url: https://github.com/AgentOps-AI/agentops
+  docs_url: https://docs.agentops.ai/
+  tags: [agent-monitoring, tracing, cost, benchmarks]
+  summary_zh: 面向 AI agents 的监控、trace、成本跟踪和 benchmark 平台，集成 CrewAI、AutoGen、CamelAI、OpenAI Agents SDK 等框架。
+  relevance_zh: 多 agent 通信、成本和失败归因需要统一轨迹与成本观测，AgentOps 是强工程参考。
+  status: important
+- name: LangWatch
+  category: Observability & Operations
+  repo_url: https://github.com/langwatch/langwatch
+  docs_url: https://docs.langwatch.ai/
+  tags: [evaluations, simulations, agent-testing, observability]
+  summary_zh: 面向 LLM/agent 应用的评测、仿真和监控平台，支持 agent 行为测试和生产观测。
+  relevance_zh: 适合作多 agent 变更后的离线仿真、回归评测和线上质量监控。
+  status: important
+- name: Weave
+  category: Observability & Operations
+  repo_url: https://github.com/wandb/weave
+  docs_url: https://weave-docs.wandb.ai/
+  tags: [tracing, evaluations, llmops, wandb]
+  summary_zh: Weights & Biases 的 AI application tracing/evaluation 工具，可记录调用链、样本、指标和模型行为。
+  relevance_zh: 可用于多 agent 轨迹回放、成本/质量对比和进化前后评估。
+  status: supporting
+- name: TalkHier
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/sony/talkhier
+  paper_url: https://arxiv.org/abs/2502.11098
+  tags: [structured-communication, hierarchical-refinement, llm-multi-agent]
+  summary_zh: Talk Structurally, Act Hierarchically 论文的官方实现，围绕结构化通信和分层 refinement 组织多 agent 协作。
+  relevance_zh: 适合做“结构化消息协议 + 分层协作修正”的核心 baseline。
+  status: core
+- name: ReConcile
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/dinobby/ReConcile
+  paper_url: https://arxiv.org/abs/2309.13007
+  tags: [round-table, consensus, confidence-weighted-voting, diverse-models]
+  summary_zh: ReConcile 圆桌共识框架的官方代码，用多模型讨论和置信度加权投票提升推理。
+  relevance_zh: 可作为异构 agent 共识、置信度表达和投票聚合的基础实现。
+  status: core
+- name: AgentForest
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/MoreAgentsIsAllYouNeed/AgentForest
+  paper_url: https://arxiv.org/abs/2402.05120
+  tags: [sampling-and-voting, agent-scaling, ensemble-baseline]
+  summary_zh: More Agents Is All You Need 的官方实现，用采样与投票研究 agent 数量扩展效应。
+  relevance_zh: 适合作为最简单但必须比较的多 agent scaling baseline。
+  status: important
+- name: SMoA
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/David-Li0406/SMoA
+  paper_url: https://arxiv.org/abs/2411.03284
+  tags: [sparse-mixture-of-agents, response-selection, early-stopping]
+  summary_zh: Sparse Mixture-of-Agents 的官方代码，关注稀疏信息流、响应选择和早停。
+  relevance_zh: 适合研究多 agent 聚合如何在保持效果的同时降低成本。
+  status: important
+- name: RMoA
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/mindhunter01/RMoA
+  paper_url: https://arxiv.org/abs/2505.24442
+  tags: [residual-mixture-of-agents, diversity-selection, adaptive-termination]
+  summary_zh: Residual Mixture-of-Agents 的官方代码，通过多样性选择、残差补偿和自适应终止减少信息损失和成本。
+  relevance_zh: 可作为 MoA 家族中“信息保真 + 成本控制”的重要对照。
+  status: important
+- name: MALLM
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/Multi-Agent-LLMs/mallm
+  paper_url: https://arxiv.org/abs/2509.11656
+  tags: [multi-agent-llms, consensus, debate, framework]
+  summary_zh: 面向 Multi-Agent Large Language Models 的实验框架，便于比较不同协作和共识策略。
+  relevance_zh: 适合快速搭建 debate、投票、共识类 baseline，并记录多 agent 实验配置。
+  status: important
+- name: SOTOPIA
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/sotopia-lab/sotopia
+  paper_url: https://arxiv.org/abs/2310.11667
+  tags: [social-intelligence, role-play, interaction-evaluation]
+  summary_zh: 用于评估 language agents 社会智能、角色互动和策略沟通的开放式环境。
+  relevance_zh: 可补充非代码长尾任务中的协作、沟通和社会目标评测。
+  status: important
+- name: VillagerAgent
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework
+  paper_url: https://arxiv.org/abs/2406.05720
+  tags: [minecraft, villagerbench, dag-coordination, complex-dependencies]
+  summary_zh: VillagerBench/VillagerAgent 代码库，用 Minecraft 测复杂依赖下的多 agent 分工和同步。
+  relevance_zh: 适合构造任务依赖、同步、动态适应和 hallucination 控制的协作评测。
+  status: important
+- name: MINDCraft / MineCollab
+  category: Research Implementations & Baselines
+  repo_url: https://mindcraft-minecollab.github.io/
+  paper_url: https://arxiv.org/abs/2504.17950
+  tags: [minecraft, communication-efficiency, embodied-agents, collaboration-benchmark]
+  summary_zh: 面向 Minecraft 多智能体任务的协作框架与 MineCollab benchmark，关注多 agent 的通信效率、任务分工和可观测协作过程。
+  relevance_zh: 可作为 embodied multi-agent 场景下“通信越多是否越好”和“协作是否真正带来收益”的强评测补充。
+  status: important
+- name: Generative Agents
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/joonspk-research/generative_agents
+  paper_url: https://arxiv.org/abs/2304.03442
+  tags: [agent-society, memory, reflection, simulation]
+  summary_zh: Generative Agents 小镇仿真实现，展示长期记忆、反思和社会行为涌现。
+  relevance_zh: 适合作为长期记忆、经验沉淀和 agent society 章节的经典参考实现。
+  status: important
+- name: GPTSwarm
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/metauto-ai/GPTSwarm
+  paper_url: https://arxiv.org/abs/2402.16823
+  tags: [optimizable-graphs, prompt-optimization, edge-optimization, evolution]
+  summary_zh: GPTSwarm 论文实现，把 language agents 表示为可优化图，并优化 prompt 和边连接。
+  relevance_zh: 是群体进化和“多 agent 反馈链路优化”的核心实现，应作为主 baseline。
+  status: core
+- name: Magentic-One
+  category: Reference Systems & Case Studies
+  repo_url: https://github.com/microsoft/autogen/tree/main/python/packages/autogen-magentic-one
+  paper_url: https://arxiv.org/abs/2411.04468
+  tags: [orchestrator, specialist-agents, autogenbench, replanning]
+  summary_zh: Microsoft AutoGen 生态中的通用多 agent 系统，由 Orchestrator 调度浏览器、文件、代码等 specialist agents。
+  relevance_zh: 是 orchestrator-subagent 架构、错误恢复和隔离评测的高价值参考系统。
+  status: core
+- name: OpenHands
+  category: Reference Systems & Case Studies
+  repo_url: https://github.com/OpenHands/OpenHands
+  tags: [software-agent, coding, benchmark, runtime]
+  summary_zh: 开源软件工程 agent 平台，常用于 SWE-bench/SWE-Dev 等长任务开发评测。
+  relevance_zh: 虽不是纯多 agent 框架，但可作为长任务执行、工具使用和软件任务评测的重要 baseline。
+  status: important
+- name: SWE-agent
+  category: Reference Systems & Case Studies
+  repo_url: https://github.com/SWE-agent/SWE-agent
+  tags: [software-agent, swe-bench, execution, repair]
+  summary_zh: 面向真实 GitHub issue 修复的开源 agent 系统。
+  relevance_zh: 可作为单/多 agent 软件任务对比基线，帮助衡量多 agent 协作是否真正带来收益。
+  status: important
+- name: DocAgent
+  category: Reference Systems & Case Studies
+  repo_url: https://github.com/facebookresearch/DocAgent
+  paper_url: https://arxiv.org/abs/2504.08725
+  tags: [documentation, verifier, orchestrator, code-understanding]
+  summary_zh: 多 agent 自动代码文档生成系统，包含 Reader/Searcher/Writer/Verifier/Orchestrator。
+  relevance_zh: 是“专业 agent + topological context + verifier”的清晰参考系统。
+  status: important
+- name: Symphony
+  category: Reference Systems & Case Studies
+  repo_url: https://github.com/openai/symphony
+  tags: [orchestration, issue-driven, isolated-runs, coding-agents]
+  summary_zh: OpenAI 开源的 ticket-driven orchestration 层，把项目工作转成隔离的 autonomous implementation runs。
+  relevance_zh: 虽偏编码 agent，但对“任务分解、隔离执行、编排控制面和回收结果”非常有参考价值。
+  status: important
+- name: Anthropic - How we built our multi-agent research system
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.anthropic.com/engineering/multi-agent-research-system
+  tags: [field-report, lead-agent, parallel-subagents, research]
+  summary_zh: Anthropic 对生产级 research multi-agent system 的工程复盘，包含 lead agent、并行 subagents、任务分解、trace 和 citation 验证经验。
+  relevance_zh: 是“多步骤信息搜集+整合”场景最直接的公开工程案例，应作为系统设计和成本评估的必读材料。
+  status: core
+- name: Anthropic - Building Effective AI Agents
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.anthropic.com/engineering/building-effective-agents
+  tags: [engineering-guide, workflows, agents, patterns]
+  summary_zh: Anthropic 对 workflows 与 autonomous agents 的实用区分，并总结 prompt chaining、routing、parallelization、orchestrator-workers、evaluator-optimizer 等模式。
+  relevance_zh: 是多 agent 协作模式选择的基础阅读，能防止把所有任务都错误地做成复杂多 agent。
+  status: core
+- name: Anthropic - Building multi-agent systems
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them
+  tags: [field-report, context-protection, specialization, token-cost]
+  summary_zh: 讨论什么时候值得使用多 agent，以及 context protection、parallelization、specialization 三类收益和高额 token 成本之间的取舍。
+  relevance_zh: 直接约束本项目“token 消耗和端到端耗时维持不增”的工程边界。
+  status: core
+- name: Anthropic - Effective context engineering for AI agents
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+  tags: [context-engineering, memory, working-state, token-budget]
+  summary_zh: Anthropic 对 agent 上下文窗口、工作状态、检索、压缩和持久记忆的工程方法总结。
+  relevance_zh: 多 agent 通信路由本质上依赖上下文预算和信息选择，这篇可直接支撑通信层设计。
+  status: core
+- name: Anthropic - Writing effective tools for AI agents
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.anthropic.com/engineering/writing-tools-for-agents
+  tags: [tool-design, schemas, agent-tools, reliability]
+  summary_zh: Anthropic 关于工具接口、命名、参数、错误返回和 agent 可用性的工程实践。
+  relevance_zh: 多 agent 框架中的 specialist agents 常以工具形式互相调用，工具契约质量直接影响协作可靠性。
+  status: important
+- name: Anthropic - Demystifying evals for AI agents
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents
+  tags: [agent-evals, nondeterminism, trajectories, evaluation]
+  summary_zh: Anthropic 讲解如何为非确定性 agent 轨迹设计稳健评测、抽样和错误分析。
+  relevance_zh: 自进化多 agent 必须有可靠 eval/reward，这篇补齐评测方法论。
+  status: important
+- name: Anthropic - Effective harnesses for long-running agents
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
+  tags: [long-running-agents, state, resumability, harness]
+  summary_zh: Anthropic 对长时 agent 的状态、恢复、持久化和可靠执行 harness 的实践总结。
+  relevance_zh: 任务助手长尾复杂任务通常是长时任务，多 agent 协作运行时必须处理恢复和状态漂移。
+  status: important
+- name: Anthropic - Harness design for long-running application development
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.anthropic.com/engineering/harness-design-long-running-apps
+  tags: [long-running, app-development, harness, reliability]
+  summary_zh: Anthropic 针对长时应用开发 agent 的 harness 结构改进经验。
+  relevance_zh: 可为软件工程多 agent 协作和持续开发任务提供工程约束。
+  status: important
+- name: Anthropic - Scaling Managed Agents
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.anthropic.com/engineering/managed-agents
+  tags: [managed-agents, session-logs, sandbox, architecture]
+  summary_zh: Anthropic 提出的 managed agents 架构，把模型大脑、session log、harness loop 和 sandbox 解耦。
+  relevance_zh: 对多 agent 运行时边界、隔离执行和状态回放设计很有参考价值。
+  status: important
+- name: Anthropic - Code execution with MCP
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.anthropic.com/engineering/code-execution-with-mcp
+  tags: [mcp, code-execution, sandbox, tool-boundaries]
+  summary_zh: Anthropic 讨论如何通过 MCP 边界进行受控代码执行。
+  relevance_zh: 多 agent 系统需要清晰工具边界和执行隔离，MCP 是关键互操作层。
+  status: important
+- name: Anthropic - Claude Code auto mode
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.anthropic.com/engineering/claude-code-auto-mode
+  tags: [permissions, autonomy, classifier, coding-agents]
+  summary_zh: Anthropic 介绍如何用分类器管理审批，在更高自治度下控制编码 agent 风险。
+  relevance_zh: 对多 agent 中 human-in-the-loop、权限门控和自动化边界设计有启发。
+  status: supporting
+- name: Anthropic - Claude Code sandboxing
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.anthropic.com/engineering/claude-code-sandboxing
+  tags: [sandboxing, security, autonomy, coding-agents]
+  summary_zh: Anthropic 关于通过 sandbox 提升 agent 自治度同时保持安全控制的实践。
+  relevance_zh: 多 agent 协作会放大工具调用和文件系统风险，沙箱边界是基础治理机制。
+  status: supporting
+- name: Anthropic - Quantifying infrastructure noise in agentic coding evals
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.anthropic.com/engineering/infrastructure-noise
+  tags: [evaluation, infrastructure-noise, coding-agents, reproducibility]
+  summary_zh: Anthropic 分析基础设施噪声如何影响 agentic coding eval 的可重复性。
+  relevance_zh: 多 agent 系统评测更容易受环境和基础设施波动影响，这篇适合指导评测治理。
+  status: supporting
+- name: Anthropic - Multi-agent coordination patterns
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://claude.com/blog/multi-agent-coordination-patterns
+  tags: [patterns, generator-verifier, orchestrator-subagent, message-bus, shared-state]
+  summary_zh: 总结 generator-verifier、orchestrator-subagent、agent teams、message bus、shared state 五类常见协作模式及适用条件。
+  relevance_zh: 可作为本仓库协作分类和系统架构章节的工程模式骨架。
+  status: core
+- name: OpenAI - Building more helpful agents with a new evaluation framework
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://openai.com/index/building-more-helpful-agents-with-a-new-evaluation-framework/
+  tags: [field-report, browsecomp, evaluation, hard-to-find-information]
+  summary_zh: OpenAI 发布 BrowseComp，用难以搜索定位的问题评估 agent 深度检索和信息整合能力。
+  relevance_zh: 适合支撑“多步骤信息搜集+整合”类任务助手评测，尤其是高难检索和证据链质量。
+  status: important
+- name: OpenAI - Harness engineering
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://openai.com/index/harness-engineering/
+  tags: [harness-engineering, verification, reliability, agent-first-software]
+  summary_zh: OpenAI 对 harness engineering 的实践总结，强调通过约束、验证和工具环境让 agent-first 软件更可靠。
+  relevance_zh: 为多 agent 工程化提供 harness、验证和可靠性约束，是系统落地的重要方法论。
+  status: core
+- name: OpenAI - Unrolling the Codex agent loop
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://openai.com/index/unrolling-the-codex-agent-loop/
+  tags: [agent-loop, tool-replay, stateless-calls, codex]
+  summary_zh: OpenAI 解析 Codex agent loop、prompt 增长、工具调用回放和无状态模型调用的工程取舍。
+  relevance_zh: 多 agent 系统同样需要处理轨迹回放、上下文增长和工具调用状态，这篇能支撑运行时设计。
+  status: important
+- name: OpenAI - The next evolution of the Agents SDK
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://openai.com/index/the-next-evolution-of-the-agents-sdk/
+  tags: [agents-sdk, sandbox, manifests, memory, tools]
+  summary_zh: OpenAI 介绍 Agents SDK 的演进，包括模型原生 harness、沙箱执行、manifest、memory、文件系统和 shell 工具。
+  relevance_zh: 对生产级 agent SDK 如何标准化工具、记忆和执行环境有参考价值。
+  status: important
+- name: OpenAI - Symphony orchestration
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://openai.com/index/open-source-codex-orchestration-symphony/
+  tags: [orchestration, codex, issue-driven, control-plane]
+  summary_zh: OpenAI 介绍 Symphony 如何把 issue tracker 转成面向编码 agent 的常驻编排控制面。
+  relevance_zh: 可借鉴到多 agent 任务助手的任务队列、隔离执行和结果合并流程。
+  status: important
+- name: OpenAI Developers - Testing Agent Skills Systematically with Evals
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://developers.openai.com/blog/eval-skills
+  tags: [skills, evals, traces, regression]
+  summary_zh: OpenAI Developers 介绍如何把 agent 技能和执行轨迹转成可重复评测。
+  relevance_zh: 自进化多 agent 系统需要 regression-safe 的技能/协作模式评测闭环。
+  status: important
+- name: LangChain - How and when to build multi-agent systems
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://blog.langchain.com/how-and-when-to-build-multi-agent-systems/
+  tags: [engineering-guide, supervisor, handoff, multi-agent]
+  summary_zh: LangChain 对 multi-agent supervisor、handoff、subagent 工具化等模式的实践建议。
+  relevance_zh: 可帮助把论文中的协作模式映射到 LangGraph/LangChain 工程实现。
+  status: important
+- name: LangChain - Agent frameworks, runtimes, and harnesses
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/
+  tags: [architecture, framework, runtime, harness]
+  summary_zh: LangChain 清晰拆解 agent framework、runtime 和 harness 的职责边界。
+  relevance_zh: 有助于把多 agent 通信/协作算法和底层 harness 工程职责分离。
+  status: important
+- name: LangChain - The Anatomy of an Agent Harness
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://blog.langchain.com/the-anatomy-of-an-agent-harness/
+  tags: [harness, architecture, components, reliability]
+  summary_zh: LangChain 对 agent harness 组件和职责的结构化拆解。
+  relevance_zh: 是把多 agent 框架落成可维护工程系统的架构参考。
+  status: important
+- name: LangChain - Improving Deep Agents with harness engineering
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://blog.langchain.com/improving-deep-agents-with-harness-engineering/
+  tags: [deep-agents, harness-engineering, benchmark, iteration]
+  summary_zh: LangChain 说明仅通过 harness 改进也能提升 deep agents 的 benchmark 表现。
+  relevance_zh: 支撑“自进化不一定先改模型，可以先优化 harness/workflow”的研究路线。
+  status: important
+- name: LangChain - Evaluating Deep Agents
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://blog.langchain.com/evaluating-deep-agents-our-learnings/
+  tags: [deep-agents, evaluation, long-horizon, stateful-agents]
+  summary_zh: LangChain 对有状态、长时 agents 评测的实践经验总结。
+  relevance_zh: 适合设计多 agent 长尾任务评测、错误分类和回归测试。
+  status: important
+- name: AutoGen Documentation - Multi-agent Design Patterns
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://microsoft.github.io/autogen/stable/user-guide/core-user-guide/design-patterns/intro.html
+  tags: [documentation, autogen, design-patterns, runtime]
+  summary_zh: AutoGen 官方文档中的多 agent 设计模式入口，覆盖 Core runtime 下的协作组织方式。
+  relevance_zh: 适合把 AutoGen 论文和 Magentic-One 系统落到可复现实验配置。
+  status: important
+- name: LangGraph Documentation - Multi-agent Systems
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://docs.langchain.com/oss/python/langgraph/workflows-agents
+  tags: [documentation, langgraph, supervisor, swarm]
+  summary_zh: LangGraph 官方多 agent 文档，给出 supervisor、handoff、network 等图式协作实现。
+  relevance_zh: 是构建 traceable multi-agent workflow baseline 的直接工程参考。
+  status: important
+- name: Google A2A Protocol Documentation
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://a2a-protocol.org/latest/specification/
+  tags: [documentation, a2a, interoperability, agent-cards]
+  summary_zh: A2A 协议规范，描述 agent card、任务委托、消息、artifact 和能力发现等跨 agent 互操作机制。
+  relevance_zh: 对“通用协作框架”和跨产品线 agent 协作协议设计高度相关。
+  status: important
+- name: Model Context Protocol Documentation
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://github.com/modelcontextprotocol/modelcontextprotocol/tree/main/docs
+  tags: [documentation, mcp, tools, context]
+  summary_zh: MCP 官方文档入口，定义 agent 与工具、资源、提示等上下文能力的连接方式。
+  relevance_zh: 多 agent 系统若要可迁移和可扩展，工具/上下文层应优先兼容 MCP。
+  status: important
+- name: HumanLayer - 12 Factor Agents
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.humanlayer.dev/blog/12-factor-agents
+  tags: [production-agents, principles, operations, reliability]
+  summary_zh: HumanLayer 总结生产 agent 的 12 条工程原则，强调可控性、状态、工具、人类介入和可观测。
+  relevance_zh: 适合作多 agent 任务助手工程化 checklist。
+  status: important
+- name: "HumanLayer - Skill Issue: Harness Engineering for Coding Agents"
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents
+  tags: [harness-engineering, coding-agents, skills, operations]
+  summary_zh: HumanLayer 从编码 agent 实践角度拆解 harness 配置、技能和环境如何影响质量。
+  relevance_zh: 可迁移到多 agent 中 skill/workflow/tool 描述的系统化管理。
+  status: supporting
+- name: Inngest - Your Agent Needs a Harness, Not a Framework
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.inngest.com/blog/your-agent-needs-a-harness-not-a-framework
+  tags: [harness-first, reliability, orchestration, production]
+  summary_zh: Inngest 提出 agent 应优先建设可靠性 harness，而不是只选择框架。
+  relevance_zh: 对多 agent 系统的队列、重试、状态和事件驱动 orchestration 很有启发。
+  status: important
+- name: Martin Fowler - Harness Engineering
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html
+  tags: [architecture, harness-engineering, entropy, gen-ai]
+  summary_zh: Martin Fowler 从架构角度讨论 harness engineering 如何控制生成式 AI 系统复杂性。
+  relevance_zh: 为多 agent 系统边界、治理和工程复杂度控制提供高质量架构视角。
+  status: important
+- name: Cognition - What We Learned Building Cloud Agents
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://cognition.ai/blog/what-we-learned-building-cloud-agents
+  tags: [cloud-agents, vm-isolation, snapshots, governance]
+  summary_zh: Cognition 复盘构建云端 agents 的基础设施经验，包括 VM 隔离、全状态快照、编排、治理和企业集成。
+  relevance_zh: 对多 agent 长任务运行环境、隔离执行和企业落地非常有参考价值。
+  status: important
+- name: OpenAI Swarm
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/openai/swarm
+  tags: [educational, handoffs, routines, multi-agent-orchestration]
+  summary_zh: OpenAI Solutions 团队维护的轻量级教育框架，用 routines 和 handoffs 展示多 agent 编排基本抽象。
+  relevance_zh: 虽非生产框架，但对理解 handoff、agent-as-tool 和轻量编排模式非常有参考价值。
+  status: important
+- name: LlamaIndex
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/run-llama/llama_index
+  docs_url: https://docs.llamaindex.ai/
+  tags: [agent-workflows, retrieval, tools, multi-agent]
+  summary_zh: 面向数据代理和检索增强应用的主流框架，包含 agent workflow、工具、RAG 和多 agent 示例。
+  relevance_zh: 对“多 agent + 检索/文档/数据任务”的任务助手落地很重要，适合作为 RAG-heavy 协作基线。
+  status: important
+- name: Pydantic AI
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/pydantic/pydantic-ai
+  docs_url: https://ai.pydantic.dev/
+  tags: [typed-agents, structured-output, graph, production]
+  summary_zh: Pydantic 团队的类型安全 agent 框架，强调结构化输出、依赖注入、工具、图和生产工程。
+  relevance_zh: 多 agent 协作需要强 schema、可验证状态和清晰工具契约，Pydantic AI 是重要工程参考。
+  status: important
+- name: smolagents
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/huggingface/smolagents
+  docs_url: https://github.com/huggingface/smolagents/tree/main/docs/source/en
+  tags: [code-agents, managed-agents, tools, lightweight]
+  summary_zh: Hugging Face 的轻量 agent 框架，支持 code agents、工具和 managed agents。
+  relevance_zh: 对“简洁 agent loop + managed subagents”的最小实现有参考价值，可作为复杂框架的低开销对照。
+  status: important
+- name: BeeAI Framework
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/i-am-bee/beeai-framework
+  docs_url: https://framework.beeai.dev/
+  tags: [python, typescript, workflows, production-agents]
+  summary_zh: IBM/BeeAI 生态的生产级 agent 框架，支持 Python 和 TypeScript agent/workflow 构建。
+  relevance_zh: 可作为企业级多 agent 运行时、工具接入和协议生态的补充参考。
+  status: important
+- name: Mastra
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/mastra-ai/mastra
+  docs_url: https://mastra.ai/docs
+  tags: [typescript, workflows, agents, memory]
+  summary_zh: TypeScript agent 应用框架，支持 agent、workflow、memory、tools 和部署集成。
+  relevance_zh: 对前端/Node 生态中多 agent workflow 与产品化部署很有参考价值。
+  status: important
+- name: AG2
+  category: Frameworks & Runtimes
+  repo_url: https://github.com/ag2ai/ag2
+  docs_url: https://docs.ag2.ai/
+  tags: [autogen-fork, agentos, groupchat, multi-agent]
+  summary_zh: 原 AutoGen 社区分支演进而来的开源 AgentOS，延续多 agent group chat、工具和编排能力。
+  relevance_zh: 适合与 Microsoft AutoGen 对比，观察社区版多 agent 框架如何演进。
+  status: important
+- name: Agent Communication Protocol
+  category: Protocols & Interoperability
+  repo_url: https://github.com/i-am-bee/acp
+  tags: [acp, agent-protocol, interoperability, archived]
+  summary_zh: BeeAI 提出的 agent、应用和人之间通信的开放协议；当前仓库已归档，但仍是协议谱系的重要参考。
+  relevance_zh: 与 A2A、ANP、MCP 一起构成跨 agent 通信协议调研边界，应在协议对比中说明其归档状态。
+  status: supporting
+- name: Agent Network Protocol
+  category: Protocols & Interoperability
+  repo_url: https://github.com/agent-network-protocol/AgentNetworkProtocol
+  docs_url: https://agent-network-protocol.com/
+  tags: [anp, agent-network, interoperability, decentralized]
+  summary_zh: 面向 agent 互联网络的开放协议，关注 agent 发现、连接、安全与高效协作网络。
+  relevance_zh: 补齐 A2A/MCP 之外的协议路线，适合研究跨组织 agent 发现和协作网络。
+  status: important
+- name: Agora Protocol
+  category: Protocols & Interoperability
+  repo_url: https://github.com/agora-protocol/python
+  tags: [agora, protocol, python-sdk, collaboration]
+  summary_zh: Agora 协议的 Python 接口，用于探索 agent 间协作、委托和协议化交互。
+  relevance_zh: 可作为 ProtocolBench 类协议评测中的协议生态补充，不作为核心工程框架。
+  status: supporting
+- name: AgentPrune
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/yanweiyue/AgentPrune
+  paper_url: https://openreview.net/forum?id=LkzuPorQ5L
+  tags: [communication-pruning, token-efficiency, iclr-2025, robustness]
+  summary_zh: ICLR 2025 AgentPrune 官方实现，用于剪枝多 agent 消息图中的冗余或恶意通信。
+  relevance_zh: 是低成本通信和通信鲁棒性实验的重要 baseline，适合直接纳入复现实验。
+  status: core
+- name: MasRouter
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/yanweiyue/masrouter
+  paper_url: https://aclanthology.org/2025.acl-long.757/
+  tags: [routing, acl-2025, llm-selection, multi-agent]
+  summary_zh: ACL 2025 MasRouter 官方实现，学习为多 agent 系统选择和路由 LLM/agent。
+  relevance_zh: 是动态路由、低成本协作和模型选择实验的核心 baseline。
+  status: core
+- name: MARBLE / MultiAgentBench
+  category: Benchmarks & Evaluation
+  repo_url: https://github.com/ulab-uiuc/MARBLE
+  paper_url: https://aclanthology.org/2025.acl-long.421/
+  tags: [multiagentbench, marble, acl-2025, collaboration, competition]
+  summary_zh: ACL 2025 MultiAgentBench/MARBLE 代码和数据，用互动场景评估 LLM agents 的协作与竞争能力。
+  relevance_zh: 对验证多 agent 通信拓扑、协作协议和竞争/协作行为质量非常关键。
+  status: core
+- name: MAS-GPT
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/MASWorks/MAS-GPT
+  paper_url: https://openreview.net/forum?id=3CiSpY3QdZ
+  tags: [mas-generation, icml-2025, executable-code, auto-design]
+  summary_zh: ICML 2025 MAS-GPT 官方实现，用模型一次生成 query-adaptive 的可执行多 agent 系统。
+  relevance_zh: 是自动化多 agent 系统生成和进化方向的重要实现。
+  status: core
+- name: ARG-Designer
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/Shiy-Li/ARG-Designer
+  paper_url: https://arxiv.org/abs/2507.18224
+  tags: [aaai-2026, topology-generation, role-selection, graph-generation]
+  summary_zh: AAAI 2026 Oral 论文实现，用自回归图生成自动设计多 agent 角色和通信拓扑。
+  relevance_zh: 对自动组队、自动拓扑设计和低成本协作非常关键，适合作为前沿 baseline。
+  status: core
+- name: AgentNet
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/zoe-yyx/AgentNet
+  paper_url: https://arxiv.org/abs/2504.00587
+  tags: [decentralized, evolutionary-coordination, rag, dynamic-routing]
+  summary_zh: 去中心化、RAG 增强的多 agent 框架，强调动态任务路由和 agent 演化。
+  relevance_zh: 与中心化 orchestrator 架构形成对照，适合研究去中心化协作和进化机制。
+  status: important
+- name: RADAR
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/cszhangzhen/RADAR
+  paper_url: https://arxiv.org/abs/2605.09907
+  tags: [communication-structure, diffusion, redundancy-aware, topology-generation]
+  summary_zh: RADAR 论文实现，用冗余感知扩散生成多 agent 通信结构。
+  relevance_zh: 作为 2026 通信结构生成候选 baseline，可与 G-Designer、ARG-Designer 对比。
+  status: supporting
+- name: MARTI
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/TsinghuaC3I/MARTI
+  tags: [reinforced-training, inference, multi-agent-llm, optimization]
+  summary_zh: 面向 LLM 多 agent 的强化训练和推理框架，支持多 agent 系统训练与推理优化。
+  relevance_zh: 补齐“多 agent 不只推理编排，也可训练/强化优化”的工程路线。
+  status: important
+- name: Dr. MAS
+  category: Research Implementations & Baselines
+  repo_url: https://github.com/langfengQ/DrMAS
+  tags: [reinforcement-learning, co-training, heterogeneous-llms, multi-agent]
+  summary_zh: 端到端 RL 训练框架，支持多个异构 LLM agents 的协同训练。
+  relevance_zh: 对群体进化和多 agent 学习机制有参考价值，适合作为训练型 MAS baseline。
+  status: important
+- name: Collaborative Gym
+  category: Benchmarks & Evaluation
+  repo_url: https://github.com/SALT-NLP/collaborative-gym
+  tags: [collaborative-agents, human-agent-collaboration, evaluation, environments]
+  summary_zh: 用于构建和评估能与人协作的 agents 的框架和工具包。
+  relevance_zh: 补齐 human-agent/team collaboration 评测维度，有助于评估多 agent 与人类协同的真实可用性。
+  status: important
+- name: OpenAI Cookbook - Orchestrating Agents
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://cookbook.openai.com/examples/orchestrating_agents
+  tags: [cookbook, handoffs, routines, orchestration]
+  summary_zh: OpenAI Cookbook 示例，展示如何用 routines、handoffs 和工具组织多个 agents。
+  relevance_zh: 是 OpenAI 生态中最直接的多 agent 编排实践示例，应和 Swarm/Agents SDK 一起参考。
+  status: important
+- name: OpenAI Agents SDK - Orchestrating Multiple Agents
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://openai.github.io/openai-agents-python/multi_agent/
+  tags: [documentation, agents-sdk, handoffs, orchestration]
+  summary_zh: OpenAI Agents SDK 官方多 agent 编排文档，覆盖 agents-as-tools、handoffs 和 manager 模式。
+  relevance_zh: 对用 OpenAI Agents SDK 复现 supervisor/manager/handoff 协作模式非常关键。
+  status: core
+- name: LlamaIndex Documentation - Multi-agent Workflows
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://docs.llamaindex.ai/en/stable/understanding/agent/multi_agent/
+  tags: [documentation, llamaindex, workflows, retrieval-agents]
+  summary_zh: LlamaIndex 官方多 agent workflow 文档，说明如何组合多个检索/工具 agents。
+  relevance_zh: 对多 agent 任务助手中的数据检索、工具调用和 workflow 组合有直接工程价值。
+  status: important
+- name: Hugging Face smolagents - Multi-agent Systems
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://github.com/huggingface/smolagents/blob/main/docs/source/en/examples/multiagents.md
+  tags: [documentation, smolagents, managed-agents, code-agents]
+  summary_zh: Hugging Face smolagents 官方多 agent 教程，展示 managed agents 和 code agents 的组合方式。
+  relevance_zh: 适合用最小 agent 框架验证“manager + specialist”的协作开销和效果。
+  status: important
+- name: Pydantic AI Documentation - Multi-agent Applications
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://ai.pydantic.dev/multi-agent-applications/
+  tags: [documentation, pydantic-ai, typed-agents, applications]
+  summary_zh: Pydantic AI 官方多 agent 应用文档，展示结构化、类型安全的多 agent 组合方式。
+  relevance_zh: 对要求高可靠 schema、工具参数和状态校验的多 agent 系统尤其有价值。
+  status: important
+- name: Mastra Documentation - Agent Networks
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://mastra.ai/docs/agents/networks
+  tags: [documentation, mastra, agent-network, typescript]
+  summary_zh: Mastra 官方 agent network 文档，展示 TypeScript 生态中多个 agents 的网络化组织方式。
+  relevance_zh: 补齐 Node/TypeScript 生态下多 agent network 工程实践。
+  status: important
+- name: AG2 Documentation - Multi-agent Chat
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://docs.ag2.ai/latest/docs/user-guide/advanced-concepts/orchestration/group-chat/introduction/
+  tags: [documentation, ag2, groupchat, multi-agent]
+  summary_zh: AG2 官方 group chat 文档，展示多 agent 对话、角色和协作配置。
+  relevance_zh: 适合与 AutoGen 官方模式对照，观察 group chat 协作抽象的演进。
+  status: supporting
+- name: ProtocolBench - Which LLM Multi-Agent Protocol to Choose?
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://openreview.net/forum?id=lqNqKUG2dn
+  tags: [protocolbench, protocolrouter, a2a, anp, acp, mcp]
+  summary_zh: 对 A2A、ANP、ACP、MCP 等 agent 通信协议做协议层评测和动态路由分析的公开稿件。
+  relevance_zh: 虽未作为正式顶会论文收录，但对协议选型、协议评测指标和 hybrid protocol routing 很有参考价值。
+  status: supporting
+- name: DeepLearning.AI - Four AI Agent Strategies
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance
+  tags: [agentic-design-patterns, multi-agent-collaboration, reflection, planning]
+  summary_zh: Andrew Ng/DeepLearning.AI 总结 reflection、tool use、planning、multi-agent collaboration 四类 agentic workflow pattern。
+  relevance_zh: 是工业界传播最广的 agentic pattern 框架之一，适合放在多 agent 协作模式章节作为概念入口。
+  status: important
+- name: Lilian Weng - LLM Powered Autonomous Agents
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://lilianweng.github.io/posts/2023-06-23-agent/
+  tags: [agent-overview, planning, memory, tool-use, reflection]
+  summary_zh: Lilian Weng 对 LLM agent 的 planning、memory、tool use、reflection 等核心组件做系统梳理。
+  relevance_zh: 虽不是多 agent 专文，但为理解多 agent 中每个 agent 的能力边界和自我改进机制提供基础。
+  status: important
+- name: Simon Willison - Agent Definition
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://simonwillison.net/2025/Sep/18/agents/
+  tags: [agent-definition, tool-loop, terminology, multi-agent]
+  summary_zh: Simon Willison 从工程实践角度给出 agent 定义，并讨论 tool loop 与多 agent 系统的边界。
+  relevance_zh: 有助于统一“agent”和“multi-agent system”的工程术语，避免把普通 workflow 误称为多 agent。
+  status: supporting
+- name: LessWrong - Survey of Multi-agent LLM Evaluations
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://www.lesswrong.com/posts/tGcLA596E8g3KnphE/survey-of-multi-agent-llm-evaluations
+  tags: [multi-agent-evaluation, risks, miscoordination, collusion]
+  summary_zh: 汇总多 agent LLM evaluation 文献，强调 miscoordination 和 collusion 等多 agent 特有风险。
+  relevance_zh: 补齐多 agent 评测不只看任务分数，还要看协作失败、串谋和安全风险的视角。
+  status: supporting
+- name: Cognition - Don't Build Multi-Agents
+  category: Technical Docs, Blogs & Field Reports
+  repo_url: https://cognition.ai/blog/dont-build-multi-agents
+  tags: [anti-patterns, agent-design, reliability, single-agent-baseline]
+  summary_zh: Cognition 对盲目构建多 agent 系统提出反面经验和设计原则，强调先把单 agent 和工具环境做好。
+  relevance_zh: 是重要负面/约束性阅读，可帮助判断什么时候不该上多 agent，防止复杂度和成本无谓膨胀。
+  status: important

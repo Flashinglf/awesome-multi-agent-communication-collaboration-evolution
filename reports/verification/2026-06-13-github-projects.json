@@ -1,0 +1,2084 @@
+{
+  "generated_at": "2026-06-13T09:29:26.592890+00:00",
+  "total_projects": 130,
+  "github_project_rows": 81,
+  "unique_github_repos": 78,
+  "verified": 78,
+  "failed": 0,
+  "archived": 1,
+  "private": 0,
+  "empty": 0,
+  "non_github_projects": [
+    {
+      "name": "SEMAP",
+      "category": "Protocols & Interoperability",
+      "repo_url": "https://arxiv.org/abs/2510.12120"
+    },
+    {
+      "name": "GAIA",
+      "category": "Benchmarks & Evaluation",
+      "repo_url": "https://arxiv.org/abs/2311.12983"
+    },
+    {
+      "name": "AgentCoord",
+      "category": "Observability & Operations",
+      "repo_url": "https://arxiv.org/abs/2404.11943"
+    },
+    {
+      "name": "MINDCraft / MineCollab",
+      "category": "Research Implementations & Baselines",
+      "repo_url": "https://mindcraft-minecollab.github.io/"
+    },
+    {
+      "name": "Anthropic - How we built our multi-agent research system",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.anthropic.com/engineering/multi-agent-research-system"
+    },
+    {
+      "name": "Anthropic - Building Effective AI Agents",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.anthropic.com/engineering/building-effective-agents"
+    },
+    {
+      "name": "Anthropic - Building multi-agent systems",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them"
+    },
+    {
+      "name": "Anthropic - Effective context engineering for AI agents",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
+    },
+    {
+      "name": "Anthropic - Writing effective tools for AI agents",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.anthropic.com/engineering/writing-tools-for-agents"
+    },
+    {
+      "name": "Anthropic - Demystifying evals for AI agents",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents"
+    },
+    {
+      "name": "Anthropic - Effective harnesses for long-running agents",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+    },
+    {
+      "name": "Anthropic - Harness design for long-running application development",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.anthropic.com/engineering/harness-design-long-running-apps"
+    },
+    {
+      "name": "Anthropic - Scaling Managed Agents",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.anthropic.com/engineering/managed-agents"
+    },
+    {
+      "name": "Anthropic - Code execution with MCP",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.anthropic.com/engineering/code-execution-with-mcp"
+    },
+    {
+      "name": "Anthropic - Claude Code auto mode",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.anthropic.com/engineering/claude-code-auto-mode"
+    },
+    {
+      "name": "Anthropic - Claude Code sandboxing",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.anthropic.com/engineering/claude-code-sandboxing"
+    },
+    {
+      "name": "Anthropic - Quantifying infrastructure noise in agentic coding evals",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.anthropic.com/engineering/infrastructure-noise"
+    },
+    {
+      "name": "Anthropic - Multi-agent coordination patterns",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://claude.com/blog/multi-agent-coordination-patterns"
+    },
+    {
+      "name": "OpenAI - Building more helpful agents with a new evaluation framework",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://openai.com/index/building-more-helpful-agents-with-a-new-evaluation-framework/"
+    },
+    {
+      "name": "OpenAI - Harness engineering",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://openai.com/index/harness-engineering/"
+    },
+    {
+      "name": "OpenAI - Unrolling the Codex agent loop",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://openai.com/index/unrolling-the-codex-agent-loop/"
+    },
+    {
+      "name": "OpenAI - The next evolution of the Agents SDK",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk/"
+    },
+    {
+      "name": "OpenAI - Symphony orchestration",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://openai.com/index/open-source-codex-orchestration-symphony/"
+    },
+    {
+      "name": "OpenAI Developers - Testing Agent Skills Systematically with Evals",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://developers.openai.com/blog/eval-skills"
+    },
+    {
+      "name": "LangChain - How and when to build multi-agent systems",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://blog.langchain.com/how-and-when-to-build-multi-agent-systems/"
+    },
+    {
+      "name": "LangChain - Agent frameworks, runtimes, and harnesses",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/"
+    },
+    {
+      "name": "LangChain - The Anatomy of an Agent Harness",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://blog.langchain.com/the-anatomy-of-an-agent-harness/"
+    },
+    {
+      "name": "LangChain - Improving Deep Agents with harness engineering",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://blog.langchain.com/improving-deep-agents-with-harness-engineering/"
+    },
+    {
+      "name": "LangChain - Evaluating Deep Agents",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://blog.langchain.com/evaluating-deep-agents-our-learnings/"
+    },
+    {
+      "name": "AutoGen Documentation - Multi-agent Design Patterns",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://microsoft.github.io/autogen/stable/user-guide/core-user-guide/design-patterns/intro.html"
+    },
+    {
+      "name": "LangGraph Documentation - Multi-agent Systems",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://docs.langchain.com/oss/python/langgraph/workflows-agents"
+    },
+    {
+      "name": "Google A2A Protocol Documentation",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://a2a-protocol.org/latest/specification/"
+    },
+    {
+      "name": "HumanLayer - 12 Factor Agents",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.humanlayer.dev/blog/12-factor-agents"
+    },
+    {
+      "name": "HumanLayer - Skill Issue: Harness Engineering for Coding Agents",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents"
+    },
+    {
+      "name": "Inngest - Your Agent Needs a Harness, Not a Framework",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.inngest.com/blog/your-agent-needs-a-harness-not-a-framework"
+    },
+    {
+      "name": "Martin Fowler - Harness Engineering",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html"
+    },
+    {
+      "name": "Cognition - What We Learned Building Cloud Agents",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://cognition.ai/blog/what-we-learned-building-cloud-agents"
+    },
+    {
+      "name": "OpenAI Cookbook - Orchestrating Agents",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://cookbook.openai.com/examples/orchestrating_agents"
+    },
+    {
+      "name": "OpenAI Agents SDK - Orchestrating Multiple Agents",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://openai.github.io/openai-agents-python/multi_agent/"
+    },
+    {
+      "name": "LlamaIndex Documentation - Multi-agent Workflows",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://docs.llamaindex.ai/en/stable/understanding/agent/multi_agent/"
+    },
+    {
+      "name": "Pydantic AI Documentation - Multi-agent Applications",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://ai.pydantic.dev/multi-agent-applications/"
+    },
+    {
+      "name": "Mastra Documentation - Agent Networks",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://mastra.ai/docs/agents/networks"
+    },
+    {
+      "name": "AG2 Documentation - Multi-agent Chat",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://docs.ag2.ai/latest/docs/user-guide/advanced-concepts/orchestration/group-chat/introduction/"
+    },
+    {
+      "name": "ProtocolBench - Which LLM Multi-Agent Protocol to Choose?",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://openreview.net/forum?id=lqNqKUG2dn"
+    },
+    {
+      "name": "DeepLearning.AI - Four AI Agent Strategies",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance"
+    },
+    {
+      "name": "Lilian Weng - LLM Powered Autonomous Agents",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://lilianweng.github.io/posts/2023-06-23-agent/"
+    },
+    {
+      "name": "Simon Willison - Agent Definition",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://simonwillison.net/2025/Sep/18/agents/"
+    },
+    {
+      "name": "LessWrong - Survey of Multi-agent LLM Evaluations",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://www.lesswrong.com/posts/tGcLA596E8g3KnphE/survey-of-multi-agent-llm-evaluations"
+    },
+    {
+      "name": "Cognition - Don't Build Multi-Agents",
+      "category": "Technical Docs, Blogs & Field Reports",
+      "repo_url": "https://cognition.ai/blog/dont-build-multi-agents"
+    }
+  ],
+  "results": [
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Build resilient agents.",
+      "forkCount": 5812,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "langchain-ai/langgraph",
+      "pushedAt": "2026-06-13T01:29:42Z",
+      "stargazerCount": 34598,
+      "updatedAt": "2026-06-13T09:18:01Z",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "repo": "langchain-ai/langgraph",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "A programming framework for agentic AI",
+      "forkCount": 8896,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "cc-by-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "nickname": ""
+      },
+      "nameWithOwner": "microsoft/autogen",
+      "pushedAt": "2026-04-15T11:59:09Z",
+      "stargazerCount": 58915,
+      "updatedAt": "2026-06-13T08:39:27Z",
+      "url": "https://github.com/microsoft/autogen",
+      "repo": "microsoft/autogen",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Build and run agents you can see, understand and trust.",
+      "forkCount": 2999,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "agentscope-ai/agentscope",
+      "pushedAt": "2026-06-12T15:38:37Z",
+      "stargazerCount": 26753,
+      "updatedAt": "2026-06-13T09:03:03Z",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "repo": "agentscope-ai/agentscope",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "master"
+      },
+      "description": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org",
+      "forkCount": 1945,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "camel-ai/camel",
+      "pushedAt": "2026-06-12T09:37:53Z",
+      "stargazerCount": 17173,
+      "updatedAt": "2026-06-13T08:59:12Z",
+      "url": "https://github.com/camel-ai/camel",
+      "repo": "camel-ai/camel",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "forkCount": 4188,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "openai/openai-agents-python",
+      "pushedAt": "2026-06-13T06:18:40Z",
+      "stargazerCount": 27116,
+      "updatedAt": "2026-06-13T08:45:00Z",
+      "url": "https://github.com/openai/openai-agents-python",
+      "repo": "openai/openai-agents-python",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+      "forkCount": 7472,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "crewAIInc/crewAI",
+      "pushedAt": "2026-06-13T05:31:07Z",
+      "stargazerCount": 53405,
+      "updatedAt": "2026-06-13T09:27:08Z",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "repo": "crewAIInc/crewAI",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+      "forkCount": 8788,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "FoundationAgents/MetaGPT",
+      "pushedAt": "2026-01-21T10:12:33Z",
+      "stargazerCount": 68761,
+      "updatedAt": "2026-06-13T08:21:49Z",
+      "url": "https://github.com/FoundationAgents/MetaGPT",
+      "repo": "FoundationAgents/MetaGPT",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
+      "forkCount": 4159,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "OpenBMB/ChatDev",
+      "pushedAt": "2026-05-27T12:41:14Z",
+      "stargazerCount": 33384,
+      "updatedAt": "2026-06-13T09:02:04Z",
+      "url": "https://github.com/OpenBMB/ChatDev",
+      "repo": "OpenBMB/ChatDev",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "🤖 AgentVerse 🪐 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation",
+      "forkCount": 513,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "OpenBMB/AgentVerse",
+      "pushedAt": "2024-09-09T05:47:44Z",
+      "stargazerCount": 5054,
+      "updatedAt": "2026-06-12T16:24:50Z",
+      "url": "https://github.com/OpenBMB/AgentVerse",
+      "repo": "OpenBMB/AgentVerse",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
+      "forkCount": 1893,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "microsoft/agent-framework",
+      "pushedAt": "2026-06-13T09:13:03Z",
+      "stargazerCount": 11300,
+      "updatedAt": "2026-06-13T08:51:22Z",
+      "url": "https://github.com/microsoft/agent-framework",
+      "repo": "microsoft/agent-framework",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Flexible and powerful framework for managing multiple AI agents and handling complex conversations",
+      "forkCount": 721,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "2FastLabs/agent-squad",
+      "pushedAt": "2026-06-10T14:52:59Z",
+      "stargazerCount": 7652,
+      "updatedAt": "2026-06-12T05:39:56Z",
+      "url": "https://github.com/2FastLabs/agent-squad",
+      "repo": "2FastLabs/agent-squad",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "From a goal to a task DAG, automatically. TypeScript-native multi-agent orchestration.",
+      "forkCount": 2389,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "open-multi-agent/open-multi-agent",
+      "pushedAt": "2026-06-11T18:05:33Z",
+      "stargazerCount": 6370,
+      "updatedAt": "2026-06-13T06:12:08Z",
+      "url": "https://github.com/open-multi-agent/open-multi-agent",
+      "repo": "open-multi-agent/open-multi-agent",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Integrate cutting-edge LLM technology quickly and easily into your apps",
+      "forkCount": 4647,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "microsoft/semantic-kernel",
+      "pushedAt": "2026-06-12T22:35:21Z",
+      "stargazerCount": 28110,
+      "updatedAt": "2026-06-13T08:50:57Z",
+      "url": "https://github.com/microsoft/semantic-kernel",
+      "repo": "microsoft/semantic-kernel",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "forkCount": 3559,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "google/adk-python",
+      "pushedAt": "2026-06-13T07:26:50Z",
+      "stargazerCount": 20093,
+      "updatedAt": "2026-06-13T08:29:11Z",
+      "url": "https://github.com/google/adk-python",
+      "repo": "google/adk-python",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Build, run, and manage agent platforms.",
+      "forkCount": 5520,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "agno-agi/agno",
+      "pushedAt": "2026-06-13T06:53:17Z",
+      "stargazerCount": 40669,
+      "updatedAt": "2026-06-13T07:17:54Z",
+      "url": "https://github.com/agno-agi/agno",
+      "repo": "agno-agi/agno",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+      "forkCount": 880,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "strands-agents/harness-sdk",
+      "pushedAt": "2026-06-13T00:14:58Z",
+      "stargazerCount": 6121,
+      "updatedAt": "2026-06-13T00:15:03Z",
+      "url": "https://github.com/strands-agents/harness-sdk",
+      "repo": "strands-agents/sdk-python",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents that research, plan, code, and execute tasks. Deployed in 5 lines of code with built-in memory, RAG, and support for 100+ LLMs.",
+      "forkCount": 1245,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "MervinPraison/PraisonAI",
+      "pushedAt": "2026-06-13T09:21:01Z",
+      "stargazerCount": 8121,
+      "updatedAt": "2026-06-13T08:27:39Z",
+      "url": "https://github.com/MervinPraison/PraisonAI",
+      "repo": "MervinPraison/PraisonAI",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "develop"
+      },
+      "description": "The NVIDIA NeMo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents.",
+      "forkCount": 675,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "NVIDIA/NeMo-Agent-Toolkit",
+      "pushedAt": "2026-06-13T03:17:21Z",
+      "stargazerCount": 2407,
+      "updatedAt": "2026-06-12T21:12:29Z",
+      "url": "https://github.com/NVIDIA/NeMo-Agent-Toolkit",
+      "repo": "NVIDIA/NeMo-Agent-Toolkit",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "The batteries-included agent harness.",
+      "forkCount": 3480,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "langchain-ai/deepagents",
+      "pushedAt": "2026-06-13T07:06:24Z",
+      "stargazerCount": 24564,
+      "updatedAt": "2026-06-13T08:05:05Z",
+      "url": "https://github.com/langchain-ai/deepagents",
+      "repo": "langchain-ai/deepagents",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Specification and documentation for the Model Context Protocol",
+      "forkCount": 1588,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "other",
+        "name": "Other",
+        "nickname": ""
+      },
+      "nameWithOwner": "modelcontextprotocol/modelcontextprotocol",
+      "pushedAt": "2026-06-13T01:22:19Z",
+      "stargazerCount": 8395,
+      "updatedAt": "2026-06-13T05:58:42Z",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+      "repo": "modelcontextprotocol/modelcontextprotocol",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications.",
+      "forkCount": 2463,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "a2aproject/A2A",
+      "pushedAt": "2026-06-12T10:40:26Z",
+      "stargazerCount": 24265,
+      "updatedAt": "2026-06-13T07:41:49Z",
+      "url": "https://github.com/a2aproject/A2A",
+      "repo": "a2aproject/A2A",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Build effective agents using Model Context Protocol and simple workflow patterns",
+      "forkCount": 855,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "lastmile-ai/mcp-agent",
+      "pushedAt": "2026-01-25T16:35:16Z",
+      "stargazerCount": 8372,
+      "updatedAt": "2026-06-13T07:31:02Z",
+      "url": "https://github.com/lastmile-ai/mcp-agent",
+      "repo": "lastmile-ai/mcp-agent",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": " A protocol for connecting any editor to any agent",
+      "forkCount": 275,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "agentclientprotocol/agent-client-protocol",
+      "pushedAt": "2026-06-13T08:35:36Z",
+      "stargazerCount": 3390,
+      "updatedAt": "2026-06-13T09:20:10Z",
+      "url": "https://github.com/agentclientprotocol/agent-client-protocol",
+      "repo": "agentclientprotocol/agent-client-protocol",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR'24)",
+      "forkCount": 262,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "THUDM/AgentBench",
+      "pushedAt": "2026-02-08T17:01:05Z",
+      "stargazerCount": 3492,
+      "updatedAt": "2026-06-12T13:56:35Z",
+      "url": "https://github.com/THUDM/AgentBench",
+      "repo": "THUDM/AgentBench",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "SWE-bench: Can Language Models Resolve Real-world Github Issues?",
+      "forkCount": 894,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "SWE-bench/SWE-bench",
+      "pushedAt": "2026-04-01T05:16:30Z",
+      "stargazerCount": 5156,
+      "updatedAt": "2026-06-13T08:57:39Z",
+      "url": "https://github.com/SWE-bench/SWE-bench",
+      "repo": "SWE-bench/SWE-bench",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "",
+      "forkCount": 0,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": null,
+      "nameWithOwner": "SCUNLP/E2EDev",
+      "pushedAt": "2025-10-16T09:28:58Z",
+      "stargazerCount": 13,
+      "updatedAt": "2026-06-13T07:53:31Z",
+      "url": "https://github.com/SCUNLP/E2EDev",
+      "repo": "SCUNLP/E2EDev",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Official code space for \"SWE-Dev: Evaluating and Training Autonomous Feature-Driven Software Development\"",
+      "forkCount": 4,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": null,
+      "nameWithOwner": "DorothyDUUU/SWE-Dev",
+      "pushedAt": "2025-10-24T08:12:57Z",
+      "stargazerCount": 60,
+      "updatedAt": "2026-05-08T04:55:53Z",
+      "url": "https://github.com/DorothyDUUU/SWE-Dev",
+      "repo": "DorothyDUUU/SWE-Dev",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.",
+      "forkCount": 1972,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "promptfoo/promptfoo",
+      "pushedAt": "2026-06-13T04:26:07Z",
+      "stargazerCount": 22159,
+      "updatedAt": "2026-06-13T07:32:21Z",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "repo": "promptfoo/promptfoo",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "The LLM Evaluation Framework",
+      "forkCount": 1526,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "confident-ai/deepeval",
+      "pushedAt": "2026-06-13T09:14:12Z",
+      "stargazerCount": 16133,
+      "updatedAt": "2026-06-13T09:14:19Z",
+      "url": "https://github.com/confident-ai/deepeval",
+      "repo": "confident-ai/deepeval",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Codes for our paper \"ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate\"",
+      "forkCount": 31,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "thunlp/ChatEval",
+      "pushedAt": "2024-10-19T08:18:57Z",
+      "stargazerCount": 335,
+      "updatedAt": "2026-06-05T01:26:42Z",
+      "url": "https://github.com/thunlp/ChatEval",
+      "repo": "thunlp/ChatEval",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "MAD: The first work to explore Multi-Agent Debate with Large Language Models :D",
+      "forkCount": 63,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "nickname": "GNU GPLv3"
+      },
+      "nameWithOwner": "Skytliang/Multi-Agents-Debate",
+      "pushedAt": "2025-12-16T06:47:28Z",
+      "stargazerCount": 579,
+      "updatedAt": "2026-06-10T03:00:47Z",
+      "url": "https://github.com/Skytliang/Multi-Agents-Debate",
+      "repo": "Skytliang/Multi-Agents-Debate",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "[ACL'25] Repo for paper \"M-MAD: Multidimensional Multi-Agent Debate for Advanced Machine Translation Evaluation\"",
+      "forkCount": 2,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": null,
+      "nameWithOwner": "SU-JIAYUAN/M-MAD",
+      "pushedAt": "2025-02-19T10:09:02Z",
+      "stargazerCount": 24,
+      "updatedAt": "2026-06-01T02:10:51Z",
+      "url": "https://github.com/SU-JIAYUAN/M-MAD",
+      "repo": "SU-JIAYUAN/M-MAD",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "τ-Bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+      "forkCount": 349,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "sierra-research/tau2-bench",
+      "pushedAt": "2026-06-11T21:32:44Z",
+      "stargazerCount": 1343,
+      "updatedAt": "2026-06-13T08:17:30Z",
+      "url": "https://github.com/sierra-research/tau2-bench",
+      "repo": "sierra-research/tau2-bench",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Code repo for \"WebArena: A Realistic Web Environment for Building Autonomous Agents\"",
+      "forkCount": 242,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "web-arena-x/webarena",
+      "pushedAt": "2025-11-26T21:16:00Z",
+      "stargazerCount": 1509,
+      "updatedAt": "2026-06-13T08:30:06Z",
+      "url": "https://github.com/web-arena-x/webarena",
+      "repo": "web-arena-x/webarena",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "WorkArena: How Capable are Web Agents at Solving Common Knowledge Work Tasks?",
+      "forkCount": 36,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "other",
+        "name": "Other",
+        "nickname": ""
+      },
+      "nameWithOwner": "ServiceNow/WorkArena",
+      "pushedAt": "2026-04-25T18:29:28Z",
+      "stargazerCount": 252,
+      "updatedAt": "2026-06-02T05:30:06Z",
+      "url": "https://github.com/ServiceNow/WorkArena",
+      "repo": "ServiceNow/WorkArena",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "An agent benchmark with tasks in a simulated software company.",
+      "forkCount": 117,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "TheAgentCompany/TheAgentCompany",
+      "pushedAt": "2025-11-17T20:31:16Z",
+      "stargazerCount": 728,
+      "updatedAt": "2026-06-12T16:40:22Z",
+      "url": "https://github.com/TheAgentCompany/TheAgentCompany",
+      "repo": "TheAgentCompany/TheAgentCompany",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "A benchmark for LLMs on complicated tasks in the terminal",
+      "forkCount": 541,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "harbor-framework/terminal-bench",
+      "pushedAt": "2026-01-22T05:27:03Z",
+      "stargazerCount": 2353,
+      "updatedAt": "2026-06-13T00:53:09Z",
+      "url": "https://github.com/harbor-framework/terminal-bench",
+      "repo": "harbor-framework/terminal-bench",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "LangSmith Client SDK Implementations",
+      "forkCount": 249,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "langchain-ai/langsmith-sdk",
+      "pushedAt": "2026-06-13T01:17:46Z",
+      "stargazerCount": 925,
+      "updatedAt": "2026-06-13T02:24:36Z",
+      "url": "https://github.com/langchain-ai/langsmith-sdk",
+      "repo": "langchain-ai/langsmith-sdk",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 ",
+      "forkCount": 3008,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "other",
+        "name": "Other",
+        "nickname": ""
+      },
+      "nameWithOwner": "langfuse/langfuse",
+      "pushedAt": "2026-06-12T23:07:56Z",
+      "stargazerCount": 29003,
+      "updatedAt": "2026-06-13T09:18:04Z",
+      "url": "https://github.com/langfuse/langfuse",
+      "repo": "langfuse/langfuse",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "AI Observability & Evaluation",
+      "forkCount": 919,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "other",
+        "name": "Other",
+        "nickname": ""
+      },
+      "nameWithOwner": "Arize-ai/phoenix",
+      "pushedAt": "2026-06-13T05:08:57Z",
+      "stargazerCount": 10119,
+      "updatedAt": "2026-06-13T07:30:05Z",
+      "url": "https://github.com/Arize-ai/phoenix",
+      "repo": "Arize-ai/phoenix",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "[NeurIPS 2025] Official implementation of \"GUARDIAN: Safeguarding LLM Multi-Agent Collaborations with Temporal Graph Modeling\"",
+      "forkCount": 0,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "JialongZhou666/GUARDIAN",
+      "pushedAt": "2025-10-14T17:40:56Z",
+      "stargazerCount": 9,
+      "updatedAt": "2026-06-07T00:47:29Z",
+      "url": "https://github.com/JialongZhou666/GUARDIAN",
+      "repo": "JialongZhou666/GUARDIAN",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including CrewAI, Agno, OpenAI Agents SDK, Langchain, Autogen, AG2, and CamelAI",
+      "forkCount": 594,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "AgentOps-AI/agentops",
+      "pushedAt": "2026-03-19T18:37:57Z",
+      "stargazerCount": 5630,
+      "updatedAt": "2026-06-13T08:29:21Z",
+      "url": "https://github.com/AgentOps-AI/agentops",
+      "repo": "AgentOps-AI/agentops",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "The platform for LLM evaluations and AI agent testing",
+      "forkCount": 323,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "langwatch/langwatch",
+      "pushedAt": "2026-06-13T06:43:38Z",
+      "stargazerCount": 3300,
+      "updatedAt": "2026-06-13T08:26:27Z",
+      "url": "https://github.com/langwatch/langwatch",
+      "repo": "langwatch/langwatch",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "master"
+      },
+      "description": "Weave is a toolkit for developing AI-powered applications, built by Weights & Biases.",
+      "forkCount": 153,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "wandb/weave",
+      "pushedAt": "2026-06-13T04:49:31Z",
+      "stargazerCount": 1101,
+      "updatedAt": "2026-06-13T04:49:34Z",
+      "url": "https://github.com/wandb/weave",
+      "repo": "wandb/weave",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Official Repo for The Paper \"Talk Structurally, Act Hierarchically: A Collaborative Framework for LLM Multi-Agent Systems\"",
+      "forkCount": 12,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "other",
+        "name": "Other",
+        "nickname": ""
+      },
+      "nameWithOwner": "sony/talkhier",
+      "pushedAt": "2025-02-24T22:49:01Z",
+      "stargazerCount": 64,
+      "updatedAt": "2026-06-04T05:31:16Z",
+      "url": "https://github.com/sony/talkhier",
+      "repo": "sony/talkhier",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "",
+      "forkCount": 16,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "dinobby/ReConcile",
+      "pushedAt": "2023-10-03T15:09:54Z",
+      "stargazerCount": 204,
+      "updatedAt": "2026-05-12T02:34:06Z",
+      "url": "https://github.com/dinobby/ReConcile",
+      "repo": "dinobby/ReConcile",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "master"
+      },
+      "description": "We present the first systematic study on the scaling property of raw agents instantiated by LLMs. We find that performance scales with the increase in the number of agents, using the simple(st) way of sampling and voting. Our method is called Agent Forest, as a tribute to the classic Random Forest.",
+      "forkCount": 14,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": null,
+      "nameWithOwner": "MoreAgentsIsAllYouNeed/AgentForest",
+      "pushedAt": "2024-10-08T07:27:14Z",
+      "stargazerCount": 147,
+      "updatedAt": "2026-06-07T19:41:56Z",
+      "url": "https://github.com/MoreAgentsIsAllYouNeed/AgentForest",
+      "repo": "MoreAgentsIsAllYouNeed/AgentForest",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "",
+      "forkCount": 2,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": null,
+      "nameWithOwner": "David-Li0406/SMoA",
+      "pushedAt": "2025-01-24T00:00:43Z",
+      "stargazerCount": 15,
+      "updatedAt": "2026-04-04T05:31:37Z",
+      "url": "https://github.com/David-Li0406/SMoA",
+      "repo": "David-Li0406/SMoA",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "master"
+      },
+      "description": "Accepted by ACL 2025",
+      "forkCount": 1,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": null,
+      "nameWithOwner": "mindhunter01/RMoA",
+      "pushedAt": "2025-03-04T08:37:35Z",
+      "stargazerCount": 7,
+      "updatedAt": "2026-06-09T02:39:20Z",
+      "url": "https://github.com/mindhunter01/RMoA",
+      "repo": "mindhunter01/RMoA",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Framework: Multi-Agent LLMs For Conversational Task-Solving (MALLM)",
+      "forkCount": 3,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "Multi-Agent-LLMs/mallm",
+      "pushedAt": "2026-04-14T20:40:46Z",
+      "stargazerCount": 60,
+      "updatedAt": "2026-05-02T15:46:25Z",
+      "url": "https://github.com/Multi-Agent-LLMs/mallm",
+      "repo": "Multi-Agent-LLMs/mallm",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Sotopia: an Open-ended Social Learning Environment (ICLR 2024 spotlight)",
+      "forkCount": 46,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "sotopia-lab/sotopia",
+      "pushedAt": "2026-06-05T17:23:42Z",
+      "stargazerCount": 311,
+      "updatedAt": "2026-06-11T16:26:29Z",
+      "url": "https://github.com/sotopia-lab/sotopia",
+      "repo": "sotopia-lab/sotopia",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "(VillagerAgent ACL 2024) A Graph based Minecraft multi agents framework",
+      "forkCount": 17,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": null,
+      "nameWithOwner": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "pushedAt": "2026-06-05T06:56:17Z",
+      "stargazerCount": 92,
+      "updatedAt": "2026-06-05T06:56:22Z",
+      "url": "https://github.com/cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Generative Agents: Interactive Simulacra of Human Behavior",
+      "forkCount": 3020,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "joonspk-research/generative_agents",
+      "pushedAt": "2024-08-05T21:38:56Z",
+      "stargazerCount": 21529,
+      "updatedAt": "2026-06-12T20:59:32Z",
+      "url": "https://github.com/joonspk-research/generative_agents",
+      "repo": "joonspk-research/generative_agents",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "🐝  The First Self-Improving agents with RL / Prompting Optimization",
+      "forkCount": 99,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "metauto-ai/GPTSwarm",
+      "pushedAt": "2026-02-05T10:39:09Z",
+      "stargazerCount": 1011,
+      "updatedAt": "2026-06-11T08:57:06Z",
+      "url": "https://github.com/metauto-ai/GPTSwarm",
+      "repo": "metauto-ai/GPTSwarm",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "forkCount": 9753,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "other",
+        "name": "Other",
+        "nickname": ""
+      },
+      "nameWithOwner": "OpenHands/OpenHands",
+      "pushedAt": "2026-06-13T09:17:41Z",
+      "stargazerCount": 76727,
+      "updatedAt": "2026-06-13T09:16:52Z",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "repo": "OpenHands/OpenHands",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] ",
+      "forkCount": 2131,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "SWE-agent/SWE-agent",
+      "pushedAt": "2026-06-10T22:08:28Z",
+      "stargazerCount": 19497,
+      "updatedAt": "2026-06-13T07:29:04Z",
+      "url": "https://github.com/SWE-agent/SWE-agent",
+      "repo": "SWE-agent/SWE-agent",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "DocAgent is a system designed to generate high-quality, context-aware code documentation for Python codebases using a multi-agent approach and hierarchical processing.",
+      "forkCount": 39,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "facebookresearch/DocAgent",
+      "pushedAt": "2025-04-23T18:23:30Z",
+      "stargazerCount": 440,
+      "updatedAt": "2026-06-12T09:26:58Z",
+      "url": "https://github.com/facebookresearch/DocAgent",
+      "repo": "facebookresearch/DocAgent",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
+      "forkCount": 2554,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "openai/symphony",
+      "pushedAt": "2026-06-09T23:25:36Z",
+      "stargazerCount": 25280,
+      "updatedAt": "2026-06-13T08:57:19Z",
+      "url": "https://github.com/openai/symphony",
+      "repo": "openai/symphony",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.",
+      "forkCount": 2305,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "openai/swarm",
+      "pushedAt": "2026-04-15T17:10:28Z",
+      "stargazerCount": 21621,
+      "updatedAt": "2026-06-13T09:18:02Z",
+      "url": "https://github.com/openai/swarm",
+      "repo": "openai/swarm",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "LlamaIndex is the leading document agent and OCR platform",
+      "forkCount": 7550,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "run-llama/llama_index",
+      "pushedAt": "2026-06-12T19:29:18Z",
+      "stargazerCount": 50102,
+      "updatedAt": "2026-06-13T09:02:01Z",
+      "url": "https://github.com/run-llama/llama_index",
+      "repo": "run-llama/llama_index",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "AI Agent Framework, the Pydantic way",
+      "forkCount": 2213,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "pydantic/pydantic-ai",
+      "pushedAt": "2026-06-13T04:02:23Z",
+      "stargazerCount": 17733,
+      "updatedAt": "2026-06-13T08:04:07Z",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "repo": "pydantic/pydantic-ai",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "🤗 smolagents: a barebones library for agents that think in code.",
+      "forkCount": 2686,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "huggingface/smolagents",
+      "pushedAt": "2026-06-09T18:35:29Z",
+      "stargazerCount": 27833,
+      "updatedAt": "2026-06-13T08:27:16Z",
+      "url": "https://github.com/huggingface/smolagents",
+      "repo": "huggingface/smolagents",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Build production-ready AI agents in both Python and Typescript.",
+      "forkCount": 448,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "i-am-bee/beeai-framework",
+      "pushedAt": "2026-06-12T23:17:34Z",
+      "stargazerCount": 3290,
+      "updatedAt": "2026-06-12T14:33:42Z",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "repo": "i-am-bee/beeai-framework",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack.",
+      "forkCount": 2222,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "other",
+        "name": "Other",
+        "nickname": ""
+      },
+      "nameWithOwner": "mastra-ai/mastra",
+      "pushedAt": "2026-06-13T08:34:48Z",
+      "stargazerCount": 25000,
+      "updatedAt": "2026-06-13T08:34:02Z",
+      "url": "https://github.com/mastra-ai/mastra",
+      "repo": "mastra-ai/mastra",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "AG2 (formerly AutoGen): The Open-Source AgentOS.Join us at: https://discord.gg/sNGSwQME3x",
+      "forkCount": 652,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "ag2ai/ag2",
+      "pushedAt": "2026-06-12T20:43:47Z",
+      "stargazerCount": 4669,
+      "updatedAt": "2026-06-13T07:14:12Z",
+      "url": "https://github.com/ag2ai/ag2",
+      "repo": "ag2ai/ag2",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Open protocol for communication between AI agents, applications, and humans.",
+      "forkCount": 119,
+      "isArchived": true,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "i-am-bee/acp",
+      "pushedAt": "2025-08-25T18:42:36Z",
+      "stargazerCount": 1013,
+      "updatedAt": "2026-06-10T16:21:13Z",
+      "url": "https://github.com/i-am-bee/acp",
+      "repo": "i-am-bee/acp",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "AgentNetworkProtocol(ANP) is an open source protocol for agent communication. Our vision is to define how agents connect with each other, building an open, secure, and efficient collaboration network for billions of intelligent agents.",
+      "forkCount": 92,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "agent-network-protocol/AgentNetworkProtocol",
+      "pushedAt": "2026-06-12T10:04:38Z",
+      "stargazerCount": 1324,
+      "updatedAt": "2026-06-12T09:48:40Z",
+      "url": "https://github.com/agent-network-protocol/AgentNetworkProtocol",
+      "repo": "agent-network-protocol/AgentNetworkProtocol",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Python interface for Agora",
+      "forkCount": 7,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "agora-protocol/python",
+      "pushedAt": "2025-03-08T17:00:37Z",
+      "stargazerCount": 68,
+      "updatedAt": "2026-05-20T08:37:08Z",
+      "url": "https://github.com/agora-protocol/python",
+      "repo": "agora-protocol/python",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "",
+      "forkCount": 19,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": null,
+      "nameWithOwner": "yanweiyue/AgentPrune",
+      "pushedAt": "2025-03-23T13:10:20Z",
+      "stargazerCount": 129,
+      "updatedAt": "2026-06-13T07:20:38Z",
+      "url": "https://github.com/yanweiyue/AgentPrune",
+      "repo": "yanweiyue/AgentPrune",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "",
+      "forkCount": 13,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "yanweiyue/masrouter",
+      "pushedAt": "2025-10-29T02:50:46Z",
+      "stargazerCount": 127,
+      "updatedAt": "2026-06-06T22:21:55Z",
+      "url": "https://github.com/yanweiyue/masrouter",
+      "repo": "yanweiyue/masrouter",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "(ACL 2025 Main) Code for  MultiAgentBench : Evaluating the Collaboration and Competition of LLM agents https://www.arxiv.org/pdf/2503.01935",
+      "forkCount": 38,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "ulab-uiuc/MARBLE",
+      "pushedAt": "2025-10-27T01:18:27Z",
+      "stargazerCount": 264,
+      "updatedAt": "2026-06-12T06:09:55Z",
+      "url": "https://github.com/ulab-uiuc/MARBLE",
+      "repo": "ulab-uiuc/MARBLE",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Official implementation of MAS-GPT: Training LLMs to Build LLM-based Multi-Agent Systems",
+      "forkCount": 3,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": null,
+      "nameWithOwner": "MASWorks/MAS-GPT",
+      "pushedAt": "2025-06-26T08:58:33Z",
+      "stargazerCount": 79,
+      "updatedAt": "2026-04-23T04:12:47Z",
+      "url": "https://github.com/MASWorks/MAS-GPT",
+      "repo": "MASWorks/MAS-GPT",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "[AAAI 2026 Oral] Automatic Multi-agent Communication Topology Design",
+      "forkCount": 6,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": null,
+      "nameWithOwner": "Shiy-Li/ARG-Designer",
+      "pushedAt": "2026-05-10T14:54:30Z",
+      "stargazerCount": 46,
+      "updatedAt": "2026-06-12T10:35:31Z",
+      "url": "https://github.com/Shiy-Li/ARG-Designer",
+      "repo": "Shiy-Li/ARG-Designer",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "[NIPS2025] A decentralized, RAG-enhanced multi-agent framework for LLMs with dynamic task routing and agent evolution.",
+      "forkCount": 4,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": null,
+      "nameWithOwner": "zoe-yyx/AgentNet",
+      "pushedAt": "2025-10-02T14:04:56Z",
+      "stargazerCount": 51,
+      "updatedAt": "2026-06-08T03:14:10Z",
+      "url": "https://github.com/zoe-yyx/AgentNet",
+      "repo": "zoe-yyx/AgentNet",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "RADAR: Redundancy-Aware Diffusion for Multi-Agent Communication Structure Generation (ICML 2026)",
+      "forkCount": 1,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": null,
+      "nameWithOwner": "cszhangzhen/RADAR",
+      "pushedAt": "2026-05-11T07:11:56Z",
+      "stargazerCount": 3,
+      "updatedAt": "2026-06-08T09:54:59Z",
+      "url": "https://github.com/cszhangzhen/RADAR",
+      "repo": "cszhangzhen/RADAR",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "A Framework for LLM-based Multi-Agent Reinforced Training and Inference",
+      "forkCount": 48,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "TsinghuaC3I/MARTI",
+      "pushedAt": "2026-04-14T03:28:29Z",
+      "stargazerCount": 525,
+      "updatedAt": "2026-06-12T18:15:14Z",
+      "url": "https://github.com/TsinghuaC3I/MARTI",
+      "repo": "TsinghuaC3I/MARTI",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "master"
+      },
+      "description": "Dr. MAS is an end-to-end RL training framework for multi-agent LLM systems, supporting the co-training of multiple (heterogeneous) LLMs.",
+      "forkCount": 11,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "nickname": ""
+      },
+      "nameWithOwner": "langfengQ/DrMAS",
+      "pushedAt": "2026-04-01T12:30:51Z",
+      "stargazerCount": 137,
+      "updatedAt": "2026-06-11T08:42:31Z",
+      "url": "https://github.com/langfengQ/DrMAS",
+      "repo": "langfengQ/DrMAS",
+      "ok": true,
+      "verified_by": "gh repo view"
+    },
+    {
+      "defaultBranchRef": {
+        "name": "main"
+      },
+      "description": "Framework and toolkits for building and evaluating collaborative agents that can work together with humans.",
+      "forkCount": 21,
+      "isArchived": false,
+      "isEmpty": false,
+      "isFork": false,
+      "isPrivate": false,
+      "licenseInfo": {
+        "key": "mit",
+        "name": "MIT License",
+        "nickname": ""
+      },
+      "nameWithOwner": "SALT-NLP/collaborative-gym",
+      "pushedAt": "2026-04-30T21:27:02Z",
+      "stargazerCount": 139,
+      "updatedAt": "2026-06-11T15:55:37Z",
+      "url": "https://github.com/SALT-NLP/collaborative-gym",
+      "repo": "SALT-NLP/collaborative-gym",
+      "ok": true,
+      "verified_by": "gh repo view"
+    }
+  ]
+}

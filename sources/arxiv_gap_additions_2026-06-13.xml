@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/e1YCnTZQCB+tdMcgqNoord240pE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2410.02506,2410.11782,2503.01935,2503.03686,2405.19425,2505.02279,2410.11905,2507.18224,2504.00587,2601.04544,2605.09907,2601.14349&amp;start=0&amp;max_results=10</title>
+  <updated>2026-06-13T01:26:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2410.02506,2410.11782,2503.01935,2503.03686,2405.19425,2505.02279,2410.11905,2507.18224,2504.00587,2601.04544,2605.09907,2601.14349" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>12</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.11905v1</id>
+    <title>A Scalable Communication Protocol for Networks of Large Language Models</title>
+    <updated>2024-10-14T23:25:13Z</updated>
+    <link href="https://arxiv.org/abs/2410.11905v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.11905v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Communication is a prerequisite for collaboration. When scaling networks of AI-powered agents, communication must be versatile, efficient, and portable. These requisites, which we refer to as the Agent Communication Trilemma, are hard to achieve in large networks of agents. We introduce Agora, a meta protocol that leverages existing communication standards to make LLM-powered agents solve complex problems efficiently. In Agora, agents typically use standardised routines for frequent communications, natural language for rare communications, and LLM-written routines for everything in between. Agora sidesteps the Agent Communication Trilemma and robustly handles changes in interfaces and members, allowing unprecedented scalability with full decentralisation and minimal involvement of human beings. On large Agora networks, we observe the emergence of self-organising, fully automated protocols that achieve complex goals without human intervention.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-14T23:25:13Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Samuele Marro</name>
+    </author>
+    <author>
+      <name>Emanuele La Malfa</name>
+    </author>
+    <author>
+      <name>Jesse Wright</name>
+    </author>
+    <author>
+      <name>Guohao Li</name>
+    </author>
+    <author>
+      <name>Nigel Shadbolt</name>
+    </author>
+    <author>
+      <name>Michael Wooldridge</name>
+    </author>
+    <author>
+      <name>Philip Torr</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.02506v1</id>
+    <title>Cut the Crap: An Economical Communication Pipeline for LLM-based Multi-Agent Systems</title>
+    <updated>2024-10-03T14:14:31Z</updated>
+    <link href="https://arxiv.org/abs/2410.02506v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.02506v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advancements in large language model (LLM)-powered agents have shown that collective intelligence can significantly outperform individual capabilities, largely attributed to the meticulously designed inter-agent communication topologies. Though impressive in performance, existing multi-agent pipelines inherently introduce substantial token overhead, as well as increased economic costs, which pose challenges for their large-scale deployments. In response to this challenge, we propose an economical, simple, and robust multi-agent communication framework, termed $\texttt{AgentPrune}$, which can seamlessly integrate into mainstream multi-agent systems and prunes redundant or even malicious communication messages. Technically, $\texttt{AgentPrune}$ is the first to identify and formally define the \textit{communication redundancy} issue present in current LLM-based multi-agent pipelines, and efficiently performs one-shot pruning on the spatial-temporal message-passing graph, yielding a token-economic and high-performing communication topology. Extensive experiments across six benchmarks demonstrate that $\texttt{AgentPrune}$ \textbf{(I)} achieves comparable results as state-of-the-art topologies at merely $\$5.6$ cost compared to their $\$43.7$, \textbf{(II)} integrates seamlessly into existing multi-agent frameworks with $28.1\%\sim72.8\%\downarrow$ token reduction, and \textbf{(III)} successfully defend against two types of agent-based adversarial attacks with $3.5\%\sim10.8\%\uparrow$ performance boost.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-03T14:14:31Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Guibin Zhang</name>
+    </author>
+    <author>
+      <name>Yanwei Yue</name>
+    </author>
+    <author>
+      <name>Zhixun Li</name>
+    </author>
+    <author>
+      <name>Sukwon Yun</name>
+    </author>
+    <author>
+      <name>Guancheng Wan</name>
+    </author>
+    <author>
+      <name>Kun Wang</name>
+    </author>
+    <author>
+      <name>Dawei Cheng</name>
+    </author>
+    <author>
+      <name>Jeffrey Xu Yu</name>
+    </author>
+    <author>
+      <name>Tianlong Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.18224v4</id>
+    <title>Assemble Your Crew: Automatic Multi-agent Communication Topology Design via Autoregressive Graph Generation</title>
+    <updated>2025-11-19T08:39:06Z</updated>
+    <link href="https://arxiv.org/abs/2507.18224v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.18224v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent systems (MAS) based on large language models (LLMs) have emerged as a powerful solution for dealing with complex problems across diverse domains. The effectiveness of MAS is critically dependent on its collaboration topology, which has become a focal point for automated design research. However, existing approaches are fundamentally constrained by their reliance on a template graph modification paradigm with a predefined set of agents and hard-coded interaction structures, significantly limiting their adaptability to task-specific requirements. To address these limitations, we reframe MAS design as a conditional autoregressive graph generation task, where both the system composition and structure are designed jointly. We propose ARG-Designer, a novel autoregressive model that operationalizes this paradigm by constructing the collaboration graph from scratch. Conditioned on a natural language task query, ARG-Designer sequentially and dynamically determines the required number of agents, selects their appropriate roles from an extensible pool, and establishes the optimal communication links between them. This generative approach creates a customized topology in a flexible and extensible manner, precisely tailored to the unique demands of different tasks. Extensive experiments across six diverse benchmarks demonstrate that ARG-Designer not only achieves state-of-the-art performance but also enjoys significantly greater token efficiency and enhanced extensibility. The source code of ARG-Designer is available at https://github.com/Shiy-Li/ARG-Designer.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-24T09:17:41Z</published>
+    <arxiv:comment>Accepted as an oral presentation by AAAI 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Shiyuan Li</name>
+    </author>
+    <author>
+      <name>Yixin Liu</name>
+    </author>
+    <author>
+      <name>Qingsong Wen</name>
+    </author>
+    <author>
+      <name>Chengqi Zhang</name>
+    </author>
+    <author>
+      <name>Shirui Pan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.11782v3</id>
+    <title>G-Designer: Architecting Multi-agent Communication Topologies via Graph Neural Networks</title>
+    <updated>2025-02-06T15:37:52Z</updated>
+    <link href="https://arxiv.org/abs/2410.11782v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.11782v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advancements in large language model (LLM)-based agents have demonstrated that collective intelligence can significantly surpass the capabilities of individual agents, primarily due to well-crafted inter-agent communication topologies. Despite the diverse and high-performing designs available, practitioners often face confusion when selecting the most effective pipeline for their specific task: \textit{Which topology is the best choice for my task, avoiding unnecessary communication token overhead while ensuring high-quality solution?} In response to this dilemma, we introduce G-Designer, an adaptive, efficient, and robust solution for multi-agent deployment, which dynamically designs task-aware, customized communication topologies. Specifically, G-Designer models the multi-agent system as a multi-agent network, leveraging a variational graph auto-encoder to encode both the nodes (agents) and a task-specific virtual node, and decodes a task-adaptive and high-performing communication topology. Extensive experiments on six benchmarks showcase that G-Designer is: \textbf{(1) high-performing}, achieving superior results on MMLU with accuracy at $84.50\%$ and on HumanEval with pass@1 at $89.90\%$; \textbf{(2) task-adaptive}, architecting communication protocols tailored to task difficulty, reducing token consumption by up to $95.33\%$ on HumanEval; and \textbf{(3) adversarially robust}, defending against agent adversarial attacks with merely $0.3\%$ accuracy drop.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-15T17:01:21Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Guibin Zhang</name>
+    </author>
+    <author>
+      <name>Yanwei Yue</name>
+    </author>
+    <author>
+      <name>Xiangguo Sun</name>
+    </author>
+    <author>
+      <name>Guancheng Wan</name>
+    </author>
+    <author>
+      <name>Miao Yu</name>
+    </author>
+    <author>
+      <name>Junfeng Fang</name>
+    </author>
+    <author>
+      <name>Kun Wang</name>
+    </author>
+    <author>
+      <name>Tianlong Chen</name>
+    </author>
+    <author>
+      <name>Dawei Cheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.03686v1</id>
+    <title>MAS-GPT: Training LLMs to Build LLM-based Multi-Agent Systems</title>
+    <updated>2025-03-05T17:27:59Z</updated>
+    <link href="https://arxiv.org/abs/2503.03686v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.03686v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM-based multi-agent systems (MAS) have shown significant potential in tackling diverse tasks. However, to design effective MAS, existing approaches heavily rely on manual configurations or multiple calls of advanced LLMs, resulting in inadaptability and high inference costs. In this paper, we simplify the process of building an MAS by reframing it as a generative language task, where the input is a user query and the output is a corresponding MAS. To address this novel task, we unify the representation of MAS as executable code and propose a consistency-oriented data construction pipeline to create a high-quality dataset comprising coherent and consistent query-MAS pairs. Using this dataset, we train MAS-GPT, an open-source medium-sized LLM that is capable of generating query-adaptive MAS within a single LLM inference. The generated MAS can be seamlessly applied to process user queries and deliver high-quality responses. Extensive experiments on 9 benchmarks and 5 LLMs show that the proposed MAS-GPT consistently outperforms 10+ baseline MAS methods on diverse settings, indicating MAS-GPT's high effectiveness, efficiency and strong generalization ability. Code will be available at https://github.com/rui-ye/MAS-GPT.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-05T17:27:59Z</published>
+    <arxiv:comment>26 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rui Ye</name>
+    </author>
+    <author>
+      <name>Shuo Tang</name>
+    </author>
+    <author>
+      <name>Rui Ge</name>
+    </author>
+    <author>
+      <name>Yaxin Du</name>
+    </author>
+    <author>
+      <name>Zhenfei Yin</name>
+    </author>
+    <author>
+      <name>Siheng Chen</name>
+    </author>
+    <author>
+      <name>Jing Shao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.01935v1</id>
+    <title>MultiAgentBench: Evaluating the Collaboration and Competition of LLM agents</title>
+    <updated>2025-03-03T05:18:50Z</updated>
+    <link href="https://arxiv.org/abs/2503.01935v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.01935v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have shown remarkable capabilities as autonomous agents, yet existing benchmarks either focus on single-agent tasks or are confined to narrow domains, failing to capture the dynamics of multi-agent coordination and competition. In this paper, we introduce MultiAgentBench, a comprehensive benchmark designed to evaluate LLM-based multi-agent systems across diverse, interactive scenarios. Our framework measures not only task completion but also the quality of collaboration and competition using novel, milestone-based key performance indicators. Moreover, we evaluate various coordination protocols (including star, chain, tree, and graph topologies) and innovative strategies such as group discussion and cognitive planning. Notably, gpt-4o-mini reaches the average highest task score, graph structure performs the best among coordination protocols in the research scenario, and cognitive planning improves milestone achievement rates by 3%. Code and datasets are public available at https://github.com/MultiagentBench/MARBLE.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-03T05:18:50Z</published>
+    <arxiv:comment>https://github.com/MultiagentBench/MARBLE</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Kunlun Zhu</name>
+    </author>
+    <author>
+      <name>Hongyi Du</name>
+    </author>
+    <author>
+      <name>Zhaochen Hong</name>
+    </author>
+    <author>
+      <name>Xiaocheng Yang</name>
+    </author>
+    <author>
+      <name>Shuyi Guo</name>
+    </author>
+    <author>
+      <name>Zhe Wang</name>
+    </author>
+    <author>
+      <name>Zhenhailong Wang</name>
+    </author>
+    <author>
+      <name>Cheng Qian</name>
+    </author>
+    <author>
+      <name>Xiangru Tang</name>
+    </author>
+    <author>
+      <name>Heng Ji</name>
+    </author>
+    <author>
+      <name>Jiaxuan You</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.04544v1</id>
+    <title>TCAndon-Router: Adaptive Reasoning Router for Multi-Agent Collaboration</title>
+    <updated>2026-01-08T03:17:33Z</updated>
+    <link href="https://arxiv.org/abs/2601.04544v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.04544v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-Agent Systems(MAS) have become a powerful paradigm for building high performance intelligent applications. Within these systems, the router responsible for determining which expert agents should handle a given query plays a crucial role in overall performance. Existing routing strategies generally fall into two categories: performance routing, which balances latency and cost across models of different sizes, and task routing, which assigns queries to domain-specific experts to improve accuracy. In real-world enterprise applications, task routing is more suitable; however, most existing approaches rely on static single-label decisions, which introduce two major limitations: (i) difficulty in seamlessly integrating new agents as business domains expand, and (ii) routing conflicts caused by overlapping agent capabilities, ultimately degrading accuracy and robustness.To address these challenges, we propose TCAndon-Router(TCAR): an adaptive reasoning router for multi-agent collaboration. Unlike traditional routers, TCAR supports dynamic agent onboarding and first generates a natural-language reasoning chain before predicting a set of candidate agents capable of handling the query. In addition, we design a collaborative execution pipeline in which selected agents independently produce responses, which are then aggregated and refined into a single high-quality response by a dedicated Refining Agent.Experiments on public datasets and real enterprise data demonstrate that TCAR significantly improves routing accuracy, reduces routing conflicts, and remains robust in ambiguous scenarios. We have released TCAR at https://huggingface.co/tencent/TCAndon-Router to support future research on explainable and collaborative multi-agent routing.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-08T03:17:33Z</published>
+    <arxiv:comment>16 pages, 6 figures. Under review at IJCAI</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jiuzhou Zhao</name>
+    </author>
+    <author>
+      <name>Chunrong Chen</name>
+    </author>
+    <author>
+      <name>Chenqi Qiao</name>
+    </author>
+    <author>
+      <name>Lebin Zheng</name>
+    </author>
+    <author>
+      <name>Minqi Han</name>
+    </author>
+    <author>
+      <name>Yanchi Liu Yongzhou Xu Xiaochuan Xu Min Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14349v1</id>
+    <title>MARBLE: Multi-Agent Reasoning for Bioinformatics Learning and Evolution</title>
+    <updated>2026-01-20T17:10:47Z</updated>
+    <link href="https://arxiv.org/abs/2601.14349v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14349v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivation: Developing high-performing bioinformatics models typically requires repeated cycles of hypothesis formulation, architectural redesign, and empirical validation, making progress slow, labor-intensive, and difficult to reproduce. Although recent LLM-based assistants can automate isolated steps, they lack performance-grounded reasoning and stability-aware mechanisms required for reliable, iterative model improvement in bioinformatics workflows. Results: We introduce MARBLE, an execution-stable autonomous model refinement framework for bioinformatics models. MARBLE couples literature-aware reference selection with structured, debate-driven architectural reasoning among role-specialized agents, followed by autonomous execution, evaluation, and memory updates explicitly grounded in empirical performance. Across spatial transcriptomics domain segmentation, drug-target interaction prediction, and drug response prediction, MARBLE consistently achieves sustained performance improvements over strong baselines across multiple refinement cycles, while maintaining high execution robustness and low regression rates. Framework-level analyses demonstrate that structured debate, balanced evidence selection, and performance-grounded memory are critical for stable, repeatable model evolution, rather than single-run or brittle gains. Availability: Source code, data and Supplementary Information are available at https://github.com/PRISM-DGU/MARBLE.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-20T17:10:47Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Sunghyun Kim</name>
+    </author>
+    <author>
+      <name>Seokwoo Yun</name>
+    </author>
+    <author>
+      <name>Youngseo Yun</name>
+    </author>
+    <author>
+      <name>Youngrak Lee</name>
+    </author>
+    <author>
+      <name>Sangsoo Lim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.19425v3</id>
+    <title>Adaptive In-conversation Team Building for Language Model Agents</title>
+    <updated>2025-03-02T06:36:57Z</updated>
+    <link href="https://arxiv.org/abs/2405.19425v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.19425v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Leveraging multiple large language model (LLM) agents has shown to be a promising approach for tackling complex tasks, while the effective design of multiple agents for a particular application remains an art. It is thus intriguing to answer a critical question: Given a task, how can we build a team of LLM agents to solve it effectively? Our new adaptive team-building paradigm offers a flexible solution, realized through a novel agent design named Captain Agent. It dynamically forms and manages teams for each step of a task-solving process, utilizing nested group conversations and reflection to ensure diverse expertise and prevent stereotypical outputs, allowing for a flexible yet structured approach to problem-solving. A comprehensive evaluation across six real-world scenarios demonstrates that Captain Agent significantly outperforms existing multi-agent methods with 21.94% improvement in average accuracy, providing outstanding performance without requiring task-specific prompt engineering. Our exploration of different backbone LLM and cost analysis further shows that Captain Agent can improve the conversation quality of weak LLM and achieve competitive performance with extremely low cost, which illuminates the application of multi-agent systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-29T18:08:37Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Linxin Song</name>
+    </author>
+    <author>
+      <name>Jiale Liu</name>
+    </author>
+    <author>
+      <name>Jieyu Zhang</name>
+    </author>
+    <author>
+      <name>Shaokun Zhang</name>
+    </author>
+    <author>
+      <name>Ao Luo</name>
+    </author>
+    <author>
+      <name>Shijian Wang</name>
+    </author>
+    <author>
+      <name>Qingyun Wu</name>
+    </author>
+    <author>
+      <name>Chi Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.00587v2</id>
+    <title>AgentNet: Decentralized Evolutionary Coordination for LLM-based Multi-Agent Systems</title>
+    <updated>2025-05-29T18:55:08Z</updated>
+    <link href="https://arxiv.org/abs/2504.00587v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.00587v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid advancement of large language models (LLMs) has enabled the development of multi-agent systems where multiple LLM-based agents collaborate on complex tasks. However, existing systems often rely on centralized coordination, leading to scalability bottlenecks, reduced adaptability, and single points of failure. Privacy and proprietary knowledge concerns further hinder cross-organizational collaboration, resulting in siloed expertise. We propose AgentNet, a decentralized, Retrieval-Augmented Generation (RAG)-based framework that enables LLM-based agents to specialize, evolve, and collaborate autonomously in a dynamically structured Directed Acyclic Graph (DAG). Unlike prior approaches with static roles or centralized control, AgentNet allows agents to adjust connectivity and route tasks based on local expertise and context. AgentNet introduces three key innovations: (1) a fully decentralized coordination mechanism that eliminates the need for a central orchestrator, enhancing robustness and emergent intelligence; (2) dynamic agent graph topology that adapts in real time to task demands, ensuring scalability and resilience; and (3) a retrieval-based memory system for agents that supports continual skill refinement and specialization. By minimizing centralized control and data exchange, AgentNet enables fault-tolerant, privacy-preserving collaboration across organizations. Experiments show that AgentNet achieves higher task accuracy than both single-agent and centralized multi-agent baselines.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-01T09:45:25Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Yingxuan Yang</name>
+    </author>
+    <author>
+      <name>Huacan Chai</name>
+    </author>
+    <author>
+      <name>Shuai Shao</name>
+    </author>
+    <author>
+      <name>Yuanyi Song</name>
+    </author>
+    <author>
+      <name>Siyuan Qi</name>
+    </author>
+    <author>
+      <name>Renting Rui</name>
+    </author>
+    <author>
+      <name>Weinan Zhang</name>
+    </author>
+  </entry>
+</feed>

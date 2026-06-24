@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/b5MqS+L6cpSpJFaWzkGAPl+QSVA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2308.08155,2308.10848,2406.04692,2309.13007,2402.05120,2305.14325,2502.11098,2411.03284,2601.18130,2605.15706&amp;start=0&amp;max_results=10</title>
+  <updated>2026-06-12T12:27:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2308.08155,2308.10848,2406.04692,2309.13007,2402.05120,2305.14325,2502.11098,2411.03284,2601.18130,2605.15706" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>10</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2406.04692v1</id>
+    <title>Mixture-of-Agents Enhances Large Language Model Capabilities</title>
+    <updated>2024-06-07T07:04:10Z</updated>
+    <link href="https://arxiv.org/abs/2406.04692v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.04692v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in large language models (LLMs) demonstrate substantial capabilities in natural language understanding and generation tasks. With the growing number of LLMs, how to harness the collective expertise of multiple LLMs is an exciting open direction. Toward this goal, we propose a new approach that leverages the collective strengths of multiple LLMs through a Mixture-of-Agents (MoA) methodology. In our approach, we construct a layered MoA architecture wherein each layer comprises multiple LLM agents. Each agent takes all the outputs from agents in the previous layer as auxiliary information in generating its response. MoA models achieves state-of-art performance on AlpacaEval 2.0, MT-Bench and FLASK, surpassing GPT-4 Omni. For example, our MoA using only open-source LLMs is the leader of AlpacaEval 2.0 by a substantial gap, achieving a score of 65.1% compared to 57.5% by GPT-4 Omni.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-07T07:04:10Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Junlin Wang</name>
+    </author>
+    <author>
+      <name>Jue Wang</name>
+    </author>
+    <author>
+      <name>Ben Athiwaratkun</name>
+    </author>
+    <author>
+      <name>Ce Zhang</name>
+    </author>
+    <author>
+      <name>James Zou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.05120v2</id>
+    <title>More Agents Is All You Need</title>
+    <updated>2024-10-11T09:38:40Z</updated>
+    <link href="https://arxiv.org/abs/2402.05120v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.05120v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We find that, simply via a sampling-and-voting method, the performance of large language models (LLMs) scales with the number of agents instantiated. Also, this method, termed as Agent Forest, is orthogonal to existing complicated methods to further enhance LLMs, while the degree of enhancement is correlated to the task difficulty. We conduct comprehensive experiments on a wide range of LLM benchmarks to verify the presence of our finding, and to study the properties that can facilitate its occurrence. Our code is publicly available at: https://github.com/MoreAgentsIsAllYouNeed/AgentForest</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-03T05:55:24Z</published>
+    <arxiv:comment>Published at Transactions on Machine Learning Research (TMLR)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Junyou Li</name>
+    </author>
+    <author>
+      <name>Qin Zhang</name>
+    </author>
+    <author>
+      <name>Yangbin Yu</name>
+    </author>
+    <author>
+      <name>Qiang Fu</name>
+    </author>
+    <author>
+      <name>Deheng Ye</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.11098v1</id>
+    <title>Talk Structurally, Act Hierarchically: A Collaborative Framework for LLM Multi-Agent Systems</title>
+    <updated>2025-02-16T12:26:58Z</updated>
+    <link href="https://arxiv.org/abs/2502.11098v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.11098v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advancements in LLM-based multi-agent (LLM-MA) systems have shown promise, yet significant challenges remain in managing communication and refinement when agents collaborate on complex tasks. In this paper, we propose \textit{Talk Structurally, Act Hierarchically (TalkHier)}, a novel framework that introduces a structured communication protocol for context-rich exchanges and a hierarchical refinement system to address issues such as incorrect outputs, falsehoods, and biases. \textit{TalkHier} surpasses various types of SoTA, including inference scaling model (OpenAI-o1), open-source multi-agent models (e.g., AgentVerse), and majority voting strategies on current LLM and single-agent baselines (e.g., ReAct, GPT4o), across diverse tasks, including open-domain question answering, domain-specific selective questioning, and practical advertisement text generation. These results highlight its potential to set a new standard for LLM-MA systems, paving the way for more effective, adaptable, and collaborative multi-agent frameworks. The code is available https://github.com/sony/talkhier.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-16T12:26:58Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhao Wang</name>
+    </author>
+    <author>
+      <name>Sota Moriyama</name>
+    </author>
+    <author>
+      <name>Wei-Yao Wang</name>
+    </author>
+    <author>
+      <name>Briti Gangopadhyay</name>
+    </author>
+    <author>
+      <name>Shingo Takamatsu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.15706v2</id>
+    <title>Differentiable Mixture-of-Agents Incentivizes Swarm Intelligence of Large Language Models</title>
+    <updated>2026-05-29T15:25:05Z</updated>
+    <link href="https://arxiv.org/abs/2605.15706v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.15706v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in Large Language Models (LLMs) have catalyzed the development of multi-agent systems (MAS) for complex reasoning tasks. However, existing MAS typically rely on pre-defined or pre-compiled communication topologies, which limits their flexibility and adaptability to dynamic task requirements. In this work, we propose Differentiable Mixture-of-Agents (DMoA), a self-evolving multi-agent framework that enables elastic and adaptive agent collaboration during inference. Instead of statically constructing workflows, DMoA dynamically routes and activates agents at each reasoning step, allowing the system to implicitly simulate diverse communication topologies and adapt to evolving demands. To achieve this, we design a differentiable, context-aware routing mechanism that leverages recurrent structures to incorporate historical and contextual information, producing sparse agent activations in a step-wise manner. Furthermore, we introduce predictive entropy as self-supervised signals to optimize the routing process, enabling efficient test-time adaptation without external annotations. Extensive experiments across 9 benchmarks demonstrate that DMoA achieves state-of-the-art performance while exhibiting strong efficiency, robustness, and ensembling capabilities.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-15T07:54:46Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xingjian Wu</name>
+    </author>
+    <author>
+      <name>Junkai Lu</name>
+    </author>
+    <author>
+      <name>Siyu Yan</name>
+    </author>
+    <author>
+      <name>Xiangfei Qiu</name>
+    </author>
+    <author>
+      <name>Jilin Hu</name>
+    </author>
+    <author>
+      <name>Chenjuan Guo</name>
+    </author>
+    <author>
+      <name>Bin Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.10848v3</id>
+    <title>AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors</title>
+    <updated>2023-10-23T05:05:15Z</updated>
+    <link href="https://arxiv.org/abs/2308.10848v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.10848v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous agents empowered by Large Language Models (LLMs) have undergone significant improvements, enabling them to generalize across a broad spectrum of tasks. However, in real-world scenarios, cooperation among individuals is often required to enhance the efficiency and effectiveness of task accomplishment. Hence, inspired by human group dynamics, we propose a multi-agent framework \framework that can collaboratively and dynamically adjust its composition as a greater-than-the-sum-of-its-parts system. Our experiments demonstrate that \framework framework can effectively deploy multi-agent groups that outperform a single agent. Furthermore, we delve into the emergence of social behaviors among individual agents within a group during collaborative task accomplishment. In view of these behaviors, we discuss some possible strategies to leverage positive ones and mitigate negative ones for improving the collaborative potential of multi-agent groups. Our codes for \framework will soon be released at \url{https://github.com/OpenBMB/AgentVerse}.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-21T16:47:11Z</published>
+    <arxiv:comment>Under review. Code at https://github.com/OpenBMB/AgentVerse/</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Weize Chen</name>
+    </author>
+    <author>
+      <name>Yusheng Su</name>
+    </author>
+    <author>
+      <name>Jingwei Zuo</name>
+    </author>
+    <author>
+      <name>Cheng Yang</name>
+    </author>
+    <author>
+      <name>Chenfei Yuan</name>
+    </author>
+    <author>
+      <name>Chi-Min Chan</name>
+    </author>
+    <author>
+      <name>Heyang Yu</name>
+    </author>
+    <author>
+      <name>Yaxi Lu</name>
+    </author>
+    <author>
+      <name>Yi-Hsin Hung</name>
+    </author>
+    <author>
+      <name>Chen Qian</name>
+    </author>
+    <author>
+      <name>Yujia Qin</name>
+    </author>
+    <author>
+      <name>Xin Cong</name>
+    </author>
+    <author>
+      <name>Ruobing Xie</name>
+    </author>
+    <author>
+      <name>Zhiyuan Liu</name>
+    </author>
+    <author>
+      <name>Maosong Sun</name>
+    </author>
+    <author>
+      <name>Jie Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.13007v3</id>
+    <title>ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs</title>
+    <updated>2024-06-21T19:34:27Z</updated>
+    <link href="https://arxiv.org/abs/2309.13007v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.13007v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) still struggle with natural language reasoning tasks. Motivated by the society of minds (Minsky, 1988), we propose ReConcile, a multi-model multi-agent framework designed as a round table conference among diverse LLM agents. ReConcile enhances collaborative reasoning between LLM agents via multiple rounds of discussion, learning to convince other agents to improve their answers, and employing a confidence-weighted voting mechanism that leads to a better consensus. In each round, ReConcile initiates discussion between agents via a 'discussion prompt' that consists of (a) grouped answers and explanations generated by each agent in the previous round, (b) their confidence scores, and (c) demonstrations of answer-rectifying human explanations, used for convincing other agents. Experiments on seven benchmarks demonstrate that ReConcile significantly improves LLMs' reasoning -- both individually and as a team -- surpassing prior single-agent and multi-agent baselines by up to 11.4% and even outperforming GPT-4 on three datasets. ReConcile also flexibly incorporates different combinations of agents, including API-based, open-source, and domain-specific models, leading to an 8% improvement on MATH. Finally, we analyze the individual components of ReConcile, demonstrating that the diversity originating from different models is critical to its superior performance. Code: https://github.com/dinobby/ReConcile</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-22T17:12:45Z</published>
+    <arxiv:comment>ACL 2024 (Camera-Ready)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Justin Chih-Yao Chen</name>
+    </author>
+    <author>
+      <name>Swarnadeep Saha</name>
+    </author>
+    <author>
+      <name>Mohit Bansal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.14325v1</id>
+    <title>Improving Factuality and Reasoning in Language Models through Multiagent Debate</title>
+    <updated>2023-05-23T17:55:11Z</updated>
+    <link href="https://arxiv.org/abs/2305.14325v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.14325v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have demonstrated remarkable capabilities in language generation, understanding, and few-shot learning in recent years. An extensive body of work has explored how their performance may be further improved through the tools of prompting, ranging from verification, self-consistency, or intermediate scratchpads. In this paper, we present a complementary approach to improve language responses where multiple language model instances propose and debate their individual responses and reasoning processes over multiple rounds to arrive at a common final answer. Our findings indicate that this approach significantly enhances mathematical and strategic reasoning across a number of tasks. We also demonstrate that our approach improves the factual validity of generated content, reducing fallacious answers and hallucinations that contemporary models are prone to. Our approach may be directly applied to existing black-box models and uses identical procedure and prompts for all tasks we investigate. Overall, our findings suggest that such "society of minds" approach has the potential to significantly advance the capabilities of LLMs and pave the way for further breakthroughs in language generation and understanding.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-23T17:55:11Z</published>
+    <arxiv:comment>Project Webpage and Code: https://composable-models.github.io/llm_debate/</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yilun Du</name>
+    </author>
+    <author>
+      <name>Shuang Li</name>
+    </author>
+    <author>
+      <name>Antonio Torralba</name>
+    </author>
+    <author>
+      <name>Joshua B. Tenenbaum</name>
+    </author>
+    <author>
+      <name>Igor Mordatch</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.03284v1</id>
+    <title>SMoA: Improving Multi-agent Large Language Models with Sparse Mixture-of-Agents</title>
+    <updated>2024-11-05T17:33:39Z</updated>
+    <link href="https://arxiv.org/abs/2411.03284v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.03284v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While multi-agent systems have been shown to significantly enhance the performance of Large Language Models (LLMs) across various tasks and applications, the dense interaction between scaling agents potentially hampers their efficiency and diversity. To address these challenges, we draw inspiration from the sparse mixture-of-agents (SMoE) and propose a sparse mixture-of-agents (SMoA) framework to improve the efficiency and diversity of multi-agent LLMs. Unlike completely connected structures, SMoA introduces novel Response Selection and Early Stopping mechanisms to sparsify information flows among individual LLM agents, striking a balance between performance and efficiency. Additionally, inspired by the expert diversity principle in SMoE frameworks for workload balance between experts, we assign distinct role descriptions to each LLM agent, fostering diverse and divergent thinking. Extensive experiments on reasoning, alignment, and fairness benchmarks demonstrate that SMoA achieves performance comparable to traditional mixture-of-agents approaches but with significantly lower computational costs. Further analysis reveals that SMoA is more stable, has a greater capacity to scale, and offers considerable potential through hyper-parameter optimization. Code and data will be available at: https://github.com/David-Li0406/SMoA.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-05T17:33:39Z</published>
+    <arxiv:comment>Under Review</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Dawei Li</name>
+    </author>
+    <author>
+      <name>Zhen Tan</name>
+    </author>
+    <author>
+      <name>Peijia Qian</name>
+    </author>
+    <author>
+      <name>Yifan Li</name>
+    </author>
+    <author>
+      <name>Kumar Satvik Chaudhary</name>
+    </author>
+    <author>
+      <name>Lijie Hu</name>
+    </author>
+    <author>
+      <name>Jiayi Shen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.08155v2</id>
+    <title>AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation</title>
+    <updated>2023-10-03T20:47:10Z</updated>
+    <link href="https://arxiv.org/abs/2308.08155v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.08155v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AutoGen is an open-source framework that allows developers to build LLM applications via multiple agents that can converse with each other to accomplish tasks. AutoGen agents are customizable, conversable, and can operate in various modes that employ combinations of LLMs, human inputs, and tools. Using AutoGen, developers can also flexibly define agent interaction behaviors. Both natural language and computer code can be used to program flexible conversation patterns for different applications. AutoGen serves as a generic infrastructure to build diverse applications of various complexities and LLM capacities. Empirical studies demonstrate the effectiveness of the framework in many example applications, with domains ranging from mathematics, coding, question answering, operations research, online decision-making, entertainment, etc.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-16T05:57:52Z</published>
+    <arxiv:comment>43 pages (10 pages for the main text, 3 pages for references, and 30 pages for appendices)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qingyun Wu</name>
+    </author>
+    <author>
+      <name>Gagan Bansal</name>
+    </author>
+    <author>
+      <name>Jieyu Zhang</name>
+    </author>
+    <author>
+      <name>Yiran Wu</name>
+    </author>
+    <author>
+      <name>Beibin Li</name>
+    </author>
+    <author>
+      <name>Erkang Zhu</name>
+    </author>
+    <author>
+      <name>Li Jiang</name>
+    </author>
+    <author>
+      <name>Xiaoyun Zhang</name>
+    </author>
+    <author>
+      <name>Shaokun Zhang</name>
+    </author>
+    <author>
+      <name>Jiale Liu</name>
+    </author>
+    <author>
+      <name>Ahmed Hassan Awadallah</name>
+    </author>
+    <author>
+      <name>Ryen W White</name>
+    </author>
+    <author>
+      <name>Doug Burger</name>
+    </author>
+    <author>
+      <name>Chi Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18130v1</id>
+    <title>RouteMoA: Dynamic Routing without Pre-Inference Boosts Efficient Mixture-of-Agents</title>
+    <updated>2026-01-26T04:22:22Z</updated>
+    <link href="https://arxiv.org/abs/2601.18130v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18130v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mixture-of-Agents (MoA) improves LLM performance through layered collaboration, but its dense topology raises costs and latency. Existing methods employ LLM judges to filter responses, yet still require all models to perform inference before judging, failing to cut costs effectively. They also lack model selection criteria and struggle with large model pools, where full inference is costly and can exceed context limits. To address this, we propose RouteMoA, an efficient mixture-of-agents framework with dynamic routing. It employs a lightweight scorer to perform initial screening by predicting coarse-grained performance from the query, narrowing candidates to a high-potential subset without inference. A mixture of judges then refines these scores through lightweight self- and cross-assessment based on existing model outputs, providing posterior correction without additional inference. Finally, a model ranking mechanism selects models by balancing performance, cost, and latency. RouteMoA outperforms MoA across varying tasks and model pool sizes, reducing cost by 89.8% and latency by 63.6% in the large-scale model pool.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T04:22:22Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jize Wang</name>
+    </author>
+    <author>
+      <name>Han Wu</name>
+    </author>
+    <author>
+      <name>Zhiyuan You</name>
+    </author>
+    <author>
+      <name>Yiming Song</name>
+    </author>
+    <author>
+      <name>Yijun Wang</name>
+    </author>
+    <author>
+      <name>Zifei Shan</name>
+    </author>
+    <author>
+      <name>Yining Li</name>
+    </author>
+    <author>
+      <name>Songyang Zhang</name>
+    </author>
+    <author>
+      <name>Xinyi Le</name>
+    </author>
+    <author>
+      <name>Cailian Chen</name>
+    </author>
+    <author>
+      <name>Xinping Guan</name>
+    </author>
+    <author>
+      <name>Dacheng Tao</name>
+    </author>
+  </entry>
+</feed>

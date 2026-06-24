@@ -1,0 +1,107 @@
+[
+  {
+    "term": "Automated Design of Agentic Systems",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Automated+Design+of+Agentic+Systems&fields=title%2Cyear%2Cvenue%2CpublicationVenue%2CpublicationTypes%2Cjournal%2CexternalIds%2Curl%2CcitationCount%2Cauthors%2CopenAccessPdf%2Ctldr&limit=5",
+    "response": {
+      "error": "HTTP Error 429: "
+    }
+  },
+  {
+    "term": "AgentSquare Automatic LLM Agent Search in Modular Design Space",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=AgentSquare+Automatic+LLM+Agent+Search+in+Modular+Design+Space&fields=title%2Cyear%2Cvenue%2CpublicationVenue%2CpublicationTypes%2Cjournal%2CexternalIds%2Curl%2CcitationCount%2Cauthors%2CopenAccessPdf%2Ctldr&limit=5",
+    "response": {
+      "error": "HTTP Error 429: "
+    }
+  },
+  {
+    "term": "Darwin Godel Machine Open-Ended Evolution of Self-Improving Agents",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Darwin+Godel+Machine+Open-Ended+Evolution+of+Self-Improving+Agents&fields=title%2Cyear%2Cvenue%2CpublicationVenue%2CpublicationTypes%2Cjournal%2CexternalIds%2Curl%2CcitationCount%2Cauthors%2CopenAccessPdf%2Ctldr&limit=5",
+    "response": {
+      "error": "HTTP Error 429: "
+    }
+  },
+  {
+    "term": "CoEvol LLM based multi-agent cooperation instruction fine-tuning",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=CoEvol+LLM+based+multi-agent+cooperation+instruction+fine-tuning&fields=title%2Cyear%2Cvenue%2CpublicationVenue%2CpublicationTypes%2Cjournal%2CexternalIds%2Curl%2CcitationCount%2Cauthors%2CopenAccessPdf%2Ctldr&limit=5",
+    "response": {
+      "error": "HTTP Error 429: "
+    }
+  },
+  {
+    "term": "Agent Laboratory Using LLM Agents as Research Assistants",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Agent+Laboratory+Using+LLM+Agents+as+Research+Assistants&fields=title%2Cyear%2Cvenue%2CpublicationVenue%2CpublicationTypes%2Cjournal%2CexternalIds%2Curl%2CcitationCount%2Cauthors%2CopenAccessPdf%2Ctldr&limit=5",
+    "response": {
+      "error": "HTTP Error 429: "
+    }
+  },
+  {
+    "term": "Agent Hospital A Simulacrum of Hospital with Evolvable Medical Agents",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Agent+Hospital+A+Simulacrum+of+Hospital+with+Evolvable+Medical+Agents&fields=title%2Cyear%2Cvenue%2CpublicationVenue%2CpublicationTypes%2Cjournal%2CexternalIds%2Curl%2CcitationCount%2Cauthors%2CopenAccessPdf%2Ctldr&limit=5",
+    "response": {
+      "error": "HTTP Error 429: "
+    }
+  },
+  {
+    "term": "DGN Learning Multi-Agent Communication with Graph Neural Network",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=DGN+Learning+Multi-Agent+Communication+with+Graph+Neural+Network&fields=title%2Cyear%2Cvenue%2CpublicationVenue%2CpublicationTypes%2Cjournal%2CexternalIds%2Curl%2CcitationCount%2Cauthors%2CopenAccessPdf%2Ctldr&limit=5",
+    "response": {
+      "error": "HTTP Error 429: "
+    }
+  },
+  {
+    "term": "Graph Convolutional Reinforcement Learning multi-agent",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Graph+Convolutional+Reinforcement+Learning+multi-agent&fields=title%2Cyear%2Cvenue%2CpublicationVenue%2CpublicationTypes%2Cjournal%2CexternalIds%2Curl%2CcitationCount%2Cauthors%2CopenAccessPdf%2Ctldr&limit=5",
+    "response": {
+      "error": "HTTP Error 429: "
+    }
+  },
+  {
+    "term": "Multi-Agent Graph-Attention Communication and Teaming",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Multi-Agent+Graph-Attention+Communication+and+Teaming&fields=title%2Cyear%2Cvenue%2CpublicationVenue%2CpublicationTypes%2Cjournal%2CexternalIds%2Curl%2CcitationCount%2Cauthors%2CopenAccessPdf%2Ctldr&limit=5",
+    "response": {
+      "error": "HTTP Error 429: "
+    }
+  },
+  {
+    "term": "Learning Efficient Diverse Communication for Cooperative Heterogeneous Teaming",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Learning+Efficient+Diverse+Communication+for+Cooperative+Heterogeneous+Teaming&fields=title%2Cyear%2Cvenue%2CpublicationVenue%2CpublicationTypes%2Cjournal%2CexternalIds%2Curl%2CcitationCount%2Cauthors%2CopenAccessPdf%2Ctldr&limit=5",
+    "response": {
+      "error": "HTTP Error 429: "
+    }
+  },
+  {
+    "term": "Learning Nearly Decomposable Value Functions Via Communication Minimization",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Learning+Nearly+Decomposable+Value+Functions+Via+Communication+Minimization&fields=title%2Cyear%2Cvenue%2CpublicationVenue%2CpublicationTypes%2Cjournal%2CexternalIds%2Curl%2CcitationCount%2Cauthors%2CopenAccessPdf%2Ctldr&limit=5",
+    "response": {
+      "error": "HTTP Error 429: "
+    }
+  },
+  {
+    "term": "Multi-Agent Game Abstraction via Graph Attention Neural Network",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Multi-Agent+Game+Abstraction+via+Graph+Attention+Neural+Network&fields=title%2Cyear%2Cvenue%2CpublicationVenue%2CpublicationTypes%2Cjournal%2CexternalIds%2Curl%2CcitationCount%2Cauthors%2CopenAccessPdf%2Ctldr&limit=5",
+    "response": {
+      "error": "HTTP Error 429: "
+    }
+  },
+  {
+    "term": "Qatten A General Framework for Cooperative Multiagent Reinforcement Learning",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Qatten+A+General+Framework+for+Cooperative+Multiagent+Reinforcement+Learning&fields=title%2Cyear%2Cvenue%2CpublicationVenue%2CpublicationTypes%2Cjournal%2CexternalIds%2Curl%2CcitationCount%2Cauthors%2CopenAccessPdf%2Ctldr&limit=5",
+    "response": {
+      "error": "HTTP Error 429: "
+    }
+  },
+  {
+    "term": "QPLEX Duplex Dueling Multi-Agent Q-Learning",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=QPLEX+Duplex+Dueling+Multi-Agent+Q-Learning&fields=title%2Cyear%2Cvenue%2CpublicationVenue%2CpublicationTypes%2Cjournal%2CexternalIds%2Curl%2CcitationCount%2Cauthors%2CopenAccessPdf%2Ctldr&limit=5",
+    "response": {
+      "error": "HTTP Error 429: "
+    }
+  },
+  {
+    "term": "Shapley Q-Value A Local Reward Approach to Solve Global Reward Games",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=Shapley+Q-Value+A+Local+Reward+Approach+to+Solve+Global+Reward+Games&fields=title%2Cyear%2Cvenue%2CpublicationVenue%2CpublicationTypes%2Cjournal%2CexternalIds%2Curl%2CcitationCount%2Cauthors%2CopenAccessPdf%2Ctldr&limit=5",
+    "response": {
+      "error": "HTTP Error 429: "
+    }
+  }
+]
