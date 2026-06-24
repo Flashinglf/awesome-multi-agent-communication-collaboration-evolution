@@ -1,0 +1,597 @@
+[
+  {
+    "query": "Learning Multiagent Communication with Backpropagation",
+    "url": "https://dblp.org/search/publ/api?q=Learning+Multiagent+Communication+with+Backpropagation&format=json&h=5",
+    "response": {
+      "result": {
+        "query": "Learning* Multiagent* Communication* with* Backpropagation*",
+        "status": {
+          "@code": "200",
+          "text": "OK"
+        },
+        "time": {
+          "@unit": "msecs",
+          "text": "69.25"
+        },
+        "completions": {
+          "@total": "1",
+          "@computed": "1",
+          "@sent": "1",
+          "c": {
+            "@sc": "2",
+            "@dc": "2",
+            "@oc": "2",
+            "@id": "67766722",
+            "text": "backpropagation"
+          }
+        },
+        "hits": {
+          "@total": "2",
+          "@computed": "2",
+          "@sent": "2",
+          "@first": "0",
+          "hit": [
+            {
+              "@score": "5",
+              "@id": "4706118",
+              "info": {
+                "authors": {
+                  "author": [
+                    {
+                      "@pid": "56/10550",
+                      "text": "Sainbayar Sukhbaatar"
+                    },
+                    {
+                      "@pid": "22/6733",
+                      "text": "Arthur Szlam"
+                    },
+                    {
+                      "@pid": "77/3763",
+                      "text": "Rob Fergus"
+                    }
+                  ]
+                },
+                "title": "Learning Multiagent Communication with Backpropagation.",
+                "venue": "NIPS",
+                "pages": "2244-2252",
+                "year": "2016",
+                "type": "Conference and Workshop Papers",
+                "access": "open",
+                "key": "conf/nips/SukhbaatarSF16",
+                "ee": "https://proceedings.neurips.cc/paper/2016/hash/55b1927fdafef39c48e5b73b5d61ea60-Abstract.html",
+                "url": "https://dblp.org/rec/conf/nips/SukhbaatarSF16"
+              },
+              "url": "URL#4706118"
+            },
+            {
+              "@score": "5",
+              "@id": "4768109",
+              "info": {
+                "authors": {
+                  "author": [
+                    {
+                      "@pid": "56/10550",
+                      "text": "Sainbayar Sukhbaatar"
+                    },
+                    {
+                      "@pid": "22/6733",
+                      "text": "Arthur Szlam"
+                    },
+                    {
+                      "@pid": "77/3763",
+                      "text": "Rob Fergus"
+                    }
+                  ]
+                },
+                "title": "Learning Multiagent Communication with Backpropagation.",
+                "venue": "CoRR",
+                "volume": "abs/1605.07736",
+                "year": "2016",
+                "type": "Informal and Other Publications",
+                "access": "open",
+                "key": "journals/corr/SukhbaatarSF16",
+                "ee": "http://arxiv.org/abs/1605.07736",
+                "url": "https://dblp.org/rec/journals/corr/SukhbaatarSF16"
+              },
+              "url": "URL#4768109"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Learning to Communicate with Deep Multi-Agent Reinforcement Learning",
+    "url": "https://dblp.org/search/publ/api?q=Learning+to+Communicate+with+Deep+Multi-Agent+Reinforcement+Learning&format=json&h=5",
+    "response": {
+      "result": {
+        "query": "Learning* to Communicate* with* Deep* Multi* Agent* Reinforcement* Learning*",
+        "status": {
+          "@code": "200",
+          "text": "OK"
+        },
+        "time": {
+          "@unit": "msecs",
+          "text": "151.10"
+        },
+        "completions": {
+          "@total": "1",
+          "@computed": "1",
+          "@sent": "1",
+          "c": {
+            "@sc": "6",
+            "@dc": "3",
+            "@oc": "6",
+            "@id": "68610418",
+            "text": "learning"
+          }
+        },
+        "hits": {
+          "@total": "3",
+          "@computed": "3",
+          "@sent": "3",
+          "@first": "0",
+          "hit": [
+            {
+              "@score": "11",
+              "@id": "4434439",
+              "info": {
+                "authors": {
+                  "author": [
+                    {
+                      "@pid": "191/6097",
+                      "text": "Hangyu Mao"
+                    },
+                    {
+                      "@pid": "202/2305",
+                      "text": "Zhibo Gong"
+                    },
+                    {
+                      "@pid": "86/3855",
+                      "text": "Yan Ni"
+                    },
+                    {
+                      "@pid": "45/63",
+                      "text": "Xiangyu Liu"
+                    },
+                    {
+                      "@pid": "202/2523",
+                      "text": "Quanbin Wang"
+                    },
+                    {
+                      "@pid": "202/1923",
+                      "text": "Weichen Ke"
+                    },
+                    {
+                      "@pid": "79/1552",
+                      "text": "Chao Ma"
+                    },
+                    {
+                      "@pid": "165/3001",
+                      "text": "Yiping Song"
+                    },
+                    {
+                      "@pid": "39/3878",
+                      "text": "Zhen Xiao"
+                    }
+                  ]
+                },
+                "title": "ACCNet: Actor-Coordinator-Critic Net for &quot;Learning-to-Communicate&quot; with Deep Multi-agent Reinforcement Learning.",
+                "venue": "CoRR",
+                "volume": "abs/1706.03235",
+                "year": "2017",
+                "type": "Informal and Other Publications",
+                "access": "open",
+                "key": "journals/corr/MaoGNLWKMSX17",
+                "ee": "http://arxiv.org/abs/1706.03235",
+                "url": "https://dblp.org/rec/journals/corr/MaoGNLWKMSX17"
+              },
+              "url": "URL#4434439"
+            },
+            {
+              "@score": "11",
+              "@id": "4705783",
+              "info": {
+                "authors": {
+                  "author": [
+                    {
+                      "@pid": "176/5095",
+                      "text": "Jakob N. Foerster"
+                    },
+                    {
+                      "@pid": "176/5056",
+                      "text": "Yannis M. Assael"
+                    },
+                    {
+                      "@pid": "42/631",
+                      "text": "Nando de Freitas"
+                    },
+                    {
+                      "@pid": "42/2548",
+                      "text": "Shimon Whiteson"
+                    }
+                  ]
+                },
+                "title": "Learning to Communicate with Deep Multi-Agent Reinforcement Learning.",
+                "venue": "NIPS",
+                "pages": "2137-2145",
+                "year": "2016",
+                "type": "Conference and Workshop Papers",
+                "access": "open",
+                "key": "conf/nips/FoersterAFW16",
+                "ee": "https://proceedings.neurips.cc/paper/2016/hash/c7635bfd99248a2cdef8249ef7bfbef4-Abstract.html",
+                "url": "https://dblp.org/rec/conf/nips/FoersterAFW16"
+              },
+              "url": "URL#4705783"
+            },
+            {
+              "@score": "11",
+              "@id": "4755742",
+              "info": {
+                "authors": {
+                  "author": [
+                    {
+                      "@pid": "176/5095",
+                      "text": "Jakob N. Foerster"
+                    },
+                    {
+                      "@pid": "176/5056",
+                      "text": "Yannis M. Assael"
+                    },
+                    {
+                      "@pid": "42/631",
+                      "text": "Nando de Freitas"
+                    },
+                    {
+                      "@pid": "42/2548",
+                      "text": "Shimon Whiteson"
+                    }
+                  ]
+                },
+                "title": "Learning to Communicate with Deep Multi-Agent Reinforcement Learning.",
+                "venue": "CoRR",
+                "volume": "abs/1605.06676",
+                "year": "2016",
+                "type": "Informal and Other Publications",
+                "access": "open",
+                "key": "journals/corr/FoersterAFW16a",
+                "ee": "http://arxiv.org/abs/1605.06676",
+                "url": "https://dblp.org/rec/journals/corr/FoersterAFW16a"
+              },
+              "url": "URL#4755742"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "TarMAC Targeted Multi-Agent Communication",
+    "url": "https://dblp.org/search/publ/api?q=TarMAC+Targeted+Multi-Agent+Communication&format=json&h=5",
+    "response": {
+      "result": {
+        "query": "TarMAC* Targeted* Multi* Agent* Communication*",
+        "status": {
+          "@code": "200",
+          "text": "OK"
+        },
+        "time": {
+          "@unit": "msecs",
+          "text": "50.44"
+        },
+        "completions": {
+          "@total": "1",
+          "@computed": "1",
+          "@sent": "1",
+          "c": {
+            "@sc": "2",
+            "@dc": "2",
+            "@oc": "2",
+            "@id": "67963881",
+            "text": "communication"
+          }
+        },
+        "hits": {
+          "@total": "2",
+          "@computed": "2",
+          "@sent": "2",
+          "@first": "0",
+          "hit": [
+            {
+              "@score": "5",
+              "@id": "3579743",
+              "info": {
+                "authors": {
+                  "author": [
+                    {
+                      "@pid": "40/5262",
+                      "text": "Abhishek Das"
+                    },
+                    {
+                      "@pid": "228/8278",
+                      "text": "Théophile Gervet"
+                    },
+                    {
+                      "@pid": "192/1508",
+                      "text": "Joshua Romoff"
+                    },
+                    {
+                      "@pid": "67/6586",
+                      "text": "Dhruv Batra"
+                    },
+                    {
+                      "@pid": "64/2121",
+                      "text": "Devi Parikh"
+                    },
+                    {
+                      "@pid": "47/1744",
+                      "text": "Mike Rabbat"
+                    },
+                    {
+                      "@pid": "p/JoellePineau",
+                      "text": "Joelle Pineau"
+                    }
+                  ]
+                },
+                "title": "TarMAC: Targeted Multi-Agent Communication.",
+                "venue": "ICML",
+                "pages": "1538-1546",
+                "year": "2019",
+                "type": "Conference and Workshop Papers",
+                "access": "open",
+                "key": "conf/icml/DasGRBPRP19",
+                "ee": "http://proceedings.mlr.press/v97/das19a.html",
+                "url": "https://dblp.org/rec/conf/icml/DasGRBPRP19"
+              },
+              "url": "URL#3579743"
+            },
+            {
+              "@score": "5",
+              "@id": "4103855",
+              "info": {
+                "authors": {
+                  "author": [
+                    {
+                      "@pid": "40/5262",
+                      "text": "Abhishek Das"
+                    },
+                    {
+                      "@pid": "228/8278",
+                      "text": "Théophile Gervet"
+                    },
+                    {
+                      "@pid": "192/1508",
+                      "text": "Joshua Romoff"
+                    },
+                    {
+                      "@pid": "67/6586",
+                      "text": "Dhruv Batra"
+                    },
+                    {
+                      "@pid": "64/2121",
+                      "text": "Devi Parikh"
+                    },
+                    {
+                      "@pid": "47/1744",
+                      "text": "Michael G. Rabbat"
+                    },
+                    {
+                      "@pid": "p/JoellePineau",
+                      "text": "Joelle Pineau"
+                    }
+                  ]
+                },
+                "title": "TarMAC: Targeted Multi-Agent Communication.",
+                "venue": "CoRR",
+                "volume": "abs/1810.11187",
+                "year": "2018",
+                "type": "Informal and Other Publications",
+                "access": "open",
+                "key": "journals/corr/abs-1810-11187",
+                "ee": "http://arxiv.org/abs/1810.11187",
+                "url": "https://dblp.org/rec/journals/corr/abs-1810-11187"
+              },
+              "url": "URL#4103855"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Learning when to Communicate at Scale in Multiagent Cooperative and Competitive Tasks",
+    "url": "https://dblp.org/search/publ/api?q=Learning+when+to+Communicate+at+Scale+in+Multiagent+Cooperative+and+Competitive+Tasks&format=json&h=5",
+    "response": {
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  },
+  {
+    "query": "AutoGen Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+    "url": "https://dblp.org/search/publ/api?q=AutoGen+Enabling+Next-Gen+LLM+Applications+via+Multi-Agent+Conversation&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "AgentVerse Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors",
+    "url": "https://dblp.org/search/publ/api?q=AgentVerse+Facilitating+Multi-Agent+Collaboration+and+Exploring+Emergent+Behaviors&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "Theory of Mind for Multi-Agent Collaboration via Large Language Models",
+    "url": "https://dblp.org/search/publ/api?q=Theory+of+Mind+for+Multi-Agent+Collaboration+via+Large+Language+Models&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate",
+    "url": "https://dblp.org/search/publ/api?q=Encouraging+Divergent+Thinking+in+Large+Language+Models+through+Multi-Agent+Debate&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+    "url": "https://dblp.org/search/publ/api?q=Improving+Factuality+and+Reasoning+in+Language+Models+through+Multiagent+Debate&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "ReConcile Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs",
+    "url": "https://dblp.org/search/publ/api?q=ReConcile+Round-Table+Conference+Improves+Reasoning+via+Consensus+among+Diverse+LLMs&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "ChatEval Towards Better LLM-based Evaluators through Multi-Agent Debate",
+    "url": "https://dblp.org/search/publ/api?q=ChatEval+Towards+Better+LLM-based+Evaluators+through+Multi-Agent+Debate&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "MetaGPT Meta Programming for A Multi-Agent Collaborative Framework",
+    "url": "https://dblp.org/search/publ/api?q=MetaGPT+Meta+Programming+for+A+Multi-Agent+Collaborative+Framework&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "CAMEL Communicative Agents for Mind Exploration of Large Language Model Society",
+    "url": "https://dblp.org/search/publ/api?q=CAMEL+Communicative+Agents+for+Mind+Exploration+of+Large+Language+Model+Society&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "Generative Agents Interactive Simulacra of Human Behavior",
+    "url": "https://dblp.org/search/publ/api?q=Generative+Agents+Interactive+Simulacra+of+Human+Behavior&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "SOTOPIA Interactive Evaluation for Social Intelligence in Language Agents",
+    "url": "https://dblp.org/search/publ/api?q=SOTOPIA+Interactive+Evaluation+for+Social+Intelligence+in+Language+Agents&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "Communicative Agents for Software Development",
+    "url": "https://dblp.org/search/publ/api?q=Communicative+Agents+for+Software+Development&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "Language Agents as Optimizable Graphs",
+    "url": "https://dblp.org/search/publ/api?q=Language+Agents+as+Optimizable+Graphs&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "AFlow Automating Agentic Workflow Generation",
+    "url": "https://dblp.org/search/publ/api?q=AFlow+Automating+Agentic+Workflow+Generation&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "EvoAgent Towards Automatic Multi-Agent Generation via Evolutionary Algorithms",
+    "url": "https://dblp.org/search/publ/api?q=EvoAgent+Towards+Automatic+Multi-Agent+Generation+via+Evolutionary+Algorithms&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "Reflexion Language Agents with Verbal Reinforcement Learning",
+    "url": "https://dblp.org/search/publ/api?q=Reflexion+Language+Agents+with+Verbal+Reinforcement+Learning&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "Voyager An Open-Ended Embodied Agent with Large Language Models",
+    "url": "https://dblp.org/search/publ/api?q=Voyager+An+Open-Ended+Embodied+Agent+with+Large+Language+Models&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "AgentBench Evaluating LLMs as Agents",
+    "url": "https://dblp.org/search/publ/api?q=AgentBench+Evaluating+LLMs+as+Agents&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "GAIA a benchmark for General AI Assistants",
+    "url": "https://dblp.org/search/publ/api?q=GAIA+a+benchmark+for+General+AI+Assistants&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "SWE-bench Can Language Models Resolve Real-World GitHub Issues",
+    "url": "https://dblp.org/search/publ/api?q=SWE-bench+Can+Language+Models+Resolve+Real-World+GitHub+Issues&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments",
+    "url": "https://dblp.org/search/publ/api?q=Multi-Agent+Actor-Critic+for+Mixed+Cooperative-Competitive+Environments&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "QMIX Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning",
+    "url": "https://dblp.org/search/publ/api?q=QMIX+Monotonic+Value+Function+Factorisation+for+Deep+Multi-Agent+Reinforcement+Learning&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "Counterfactual Multi-Agent Policy Gradients",
+    "url": "https://dblp.org/search/publ/api?q=Counterfactual+Multi-Agent+Policy+Gradients&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "Value-Decomposition Networks For Cooperative Multi-Agent Learning Based On Team Reward",
+    "url": "https://dblp.org/search/publ/api?q=Value-Decomposition+Networks+For+Cooperative+Multi-Agent+Learning+Based+On+Team+Reward&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "Actor-Attention-Critic for Multi-Agent Reinforcement Learning",
+    "url": "https://dblp.org/search/publ/api?q=Actor-Attention-Critic+for+Multi-Agent+Reinforcement+Learning&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "DGN Learning Multi-Agent Communication with Graph Neural Network",
+    "url": "https://dblp.org/search/publ/api?q=DGN+Learning+Multi-Agent+Communication+with+Graph+Neural+Network&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  },
+  {
+    "query": "Learning Attentional Communication for Multi-Agent Cooperation",
+    "url": "https://dblp.org/search/publ/api?q=Learning+Attentional+Communication+for+Multi-Agent+Cooperation&format=json&h=5",
+    "response": {
+      "error": "[Errno 104] Connection reset by peer"
+    }
+  }
+]
